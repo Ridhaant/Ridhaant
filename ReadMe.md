@@ -1,7 +1,7 @@
 # 💫 About Me:
 Computer Science engineer (LNMIIT) with top-2.4% national analytical aptitude (JEE Mains, 97.55 percentile) and a verified record of building large-scale, production-grade software from scratch — not tutorials, not clones. Sole author of a 29,430-line, 59-file Python platform running 16 concurrent processes across a pinned 10-core CPU layout, handling three live financial markets simultaneously. Deeply fluent in multi-process architecture, IPC messaging, real-time data systems, self-healing infrastructure, and full-stack deployment. Writes code that runs in the real world, not just on localhost
 
-⚡ Systems Engineer | Quant Developer | FinTech Infrastructure Builder
+⚡ Systems Engineer | Quant Developer | FinTech Infrastructure | Builder Production multi-process trading & data intelligence platform | 16 processes | GPU acceleration | Real-time markets | Self-healing infrastructure |
 
 ## 🌐 Socials:
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:redantthakur@gmail.com) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/riddhant.thakur) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ridhaant-thackur-09947a1b0)  
