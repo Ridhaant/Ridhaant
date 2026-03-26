@@ -10,9 +10,47 @@ Computer Science engineer (LNMIIT) with top-2.4% national analytical aptitude (J
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Lightroom Classic](https://img.shields.io/badge/Adobe%20Lightroom%20Classic-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom%20Classic&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 # AlgoStack
-AlgoStack — Production Multi-Process Trading Platform .
-Check Algostack repository. 
+AlgoStack — Production Multi-Process Trading Platform
+
 29k+ lines | 16 concurrent processes | GPU accelerated | self-healing infrastructure
+### Algorithmic Signal Engine & Live Trading Dashboard for Indian Markets , Crypto soon International Markets
+
+**NSE Equity · MCX Commodity · Crypto (Binance)**
+
+[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Plotly Dash](https://img.shields.io/badge/Plotly_Dash-2.17+-119DFF?style=for-the-badge&logo=plotly&logoColor=white)](https://dash.plotly.com)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
+[![ZeroMQ](https://img.shields.io/badge/ZeroMQ-IPC_Bus-DF0000?style=for-the-badge&logo=zeromq&logoColor=white)](https://zeromq.org)
+[![CUDA](https://img.shields.io/badge/NVIDIA_CUDA-Optional_GPU-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
+[![License](https://img.shields.io/badge/License-Proprietary-FF4B4B?style=for-the-badge)](./LICENSE)
+
+<br/>
+
+> **"From raw price feed to actionable signal in milliseconds — fully self-hosted, zero cloud subscriptions."**
+
+<br/>
+
+[📸 Screenshots](#-dashboard-overview) · [⚡ Quickstart](#-installation) · [🏗 Architecture](#-architecture) · [🔧 Configuration](#-configuration) · [🐳 Docker](#-docker)
+
+</div>
+
+---
+
+## ✦ What is AlgoStack?
+
+**AlgoStack v10.7** is a production-grade, self-hosted algorithmic research and alerting platform purpose-built for **Indian retail and professional traders**. It ingests live price data across three asset classes, computes level-based entry/exit signals using a proprietary **X-Multiplier engine**, delivers instant **Telegram push alerts**, and surfaces everything through a rich **Plotly-Dash web dashboard** — all running on your own machine or a ₹500/month VPS.
+
+No SaaS fees. No data vendor lock-in. You own every line of it.
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│  Live Prices → Signal Engine → ZMQ Bus → Scanners + Dashboard + Alerts │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+> ⚠️ **Disclaimer** — AlgoStack is a *research and alerting* tool. It does **not** place orders automatically. All trading decisions remain entirely with the user. Past signal performance does not guarantee future results.
+
+---
 
 ![](https://github-readme-stats.vercel.app/api?username=Ridhaant&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Ridhaant&theme=dark&hide_border=false)<br/>
