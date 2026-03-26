@@ -1,5 +1,5 @@
 # 💫 About Me:
-Computer Science engineer (LNMIIT, final semester) with top-2.4% national analytical aptitude (JEE Mains, 97.55 percentile) and a verified record of building large-scale, production-grade software from scratch — not tutorials, not clones. Sole author of a 29,430-line, 59-file Python platform running 16 concurrent processes across a pinned 10-core CPU layout, handling three live financial markets simultaneously. Deeply fluent in multi-process architecture, IPC messaging, real-time data systems, self-healing infrastructure, and full-stack deployment. Writes code that runs in the real world, not just on localhost
+Computer Science engineer (LNMIIT) with top-2.4% national analytical aptitude (JEE Mains, 97.55 percentile) and a verified record of building large-scale, production-grade software from scratch — not tutorials, not clones. Sole author of a 29,430-line, 59-file Python platform running 16 concurrent processes across a pinned 10-core CPU layout, handling three live financial markets simultaneously. Deeply fluent in multi-process architecture, IPC messaging, real-time data systems, self-healing infrastructure, and full-stack deployment. Writes code that runs in the real world, not just on localhost
 
 ⚡ Systems Engineer | Quant Developer | FinTech Infrastructure Builder
 
