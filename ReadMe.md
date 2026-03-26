@@ -11,7 +11,7 @@ Computer Science engineer (LNMIIT) with top-2.4% national analytical aptitude (J
 
 # AlgoStack
 AlgoStack — Production Multi-Process Trading Platform
-
+Check Algostack repository 
 29k+ lines | 16 concurrent processes | GPU accelerated | self-healing infrastructure
 
 ![](https://github-readme-stats.vercel.app/api?username=Ridhaant&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
