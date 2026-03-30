@@ -52,6 +52,59 @@ class Ridhaant:
 
 ---
 
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  TECH STACK                                                        -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+## 🧰 Tech Stack
+
+<div align="center">
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)
+
+**Systems & Infrastructure**
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![ZeroMQ](https://img.shields.io/badge/ZeroMQ-DF0000?style=for-the-badge&logo=zeromq&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+
+**Data & Compute**
+
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Numba](https://img.shields.io/badge/Numba-00A3E0?style=for-the-badge&logo=python&logoColor=white)
+![CuPy](https://img.shields.io/badge/CuPy-FF6F00?style=for-the-badge&logo=nvidia&logoColor=white)
+
+**Visualization & APIs**
+
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Dash](https://img.shields.io/badge/Dash-00B4D8?style=for-the-badge&logo=plotly&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+
+**Security & Cryptography**
+
+![AES-256](https://img.shields.io/badge/AES--256--GCM-FF0000?style=for-the-badge&logo=letsencrypt&logoColor=white)
+![RSA-4096](https://img.shields.io/badge/RSA--4096-8B0000?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)
+![Argon2](https://img.shields.io/badge/Argon2id-6A0DAD?style=for-the-badge&logo=keepassxc&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT%20RS256-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![TOTP](https://img.shields.io/badge/TOTP%202FA-0061A8?style=for-the-badge&logo=authy&logoColor=white)
+
+</div>
+
+---
+
+
 <!-- ══════════════════════════════════════════════════════════════════ -->
 <!--  FLAGSHIP 1 — ALGOSTACK v10                                       -->
 <!-- ══════════════════════════════════════════════════════════════════ -->
@@ -63,38 +116,38 @@ class Ridhaant:
 
 ```
 ┌─────────────────────────── AlgoStack v10.2 ──────────────────────────────┐
-│                                                                           │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────────────┐   │
-│  │  Scanner 1   │  │  Scanner 2   │  │        Scanner 3             │   │
-│  │  (Equity)    │  │  (Equity)    │  │  GPU Sweep · 32K X-values    │   │
-│  │  NSE · yf    │  │  NSE · yf    │  │  1.22M GPU ops/tick · <1ms  │   │
-│  └──────┬───────┘  └──────┬───────┘  └──────────────┬───────────────┘   │
+│                                                                          │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────────────┐    │
+│  │  Scanner 1   │  │  Scanner 2   │  │        Scanner 3             │    │
+│  │  (Equity)    │  │  (Equity)    │  │  GPU Sweep · 32K X-values    │    │
+│  │  NSE · yf    │  │  NSE · yf    │  │  1.22M GPU ops/tick · <1ms   │    │
+│  └──────┬───────┘  └──────┬───────┘  └──────────────┬───────────────┘    │
 │         │                 │                          │                   │
 │  ┌──────┴─────────────────┴──────────────────────────┴───────────────┐   │
 │  │           ZMQ PUB/SUB Price Bus  (tcp://127.0.0.1:28081)          │   │
-│  │                  Topics: equity · commodity · crypto               │   │
-│  │            live_prices.json  ←  atomic merge-write               │   │
+│  │                  Topics: equity · commodity · crypto              │   │
+│  │            live_prices.json  ←  atomic merge-write                │   │
 │  └──────┬──────────────────────────────┬──────────────────────────┬──┘   │
-│         │                              │                          │       │
-│  ┌──────▼──────────┐  ┌───────────────▼──────────┐  ┌───────────▼────┐  │
-│  │  CommodityEng   │  │     CryptoEngine          │  │  PriceService  │  │
-│  │  (TradingView   │  │  Binance WebSocket 1s     │  │  3-Tier Fetch  │  │
-│  │   WS + scrapers)│  │  Port 28082               │  │  fast_info →   │  │
-│  └──────┬──────────┘  └───────────────┬───────────┘  │  history →     │  │
-│         │                             │               │  NSE fallback  │  │
-│  ┌──────▼─────────────────────────────▼──────────┐   └───────────────┘  │
-│  │           Plotly Dash Unified Dashboard         │                      │
+│         │                              │                          │      │
+│  ┌──────▼──────────┐  ┌───────────────▼──────────┐  ┌───────────▼────┐   │
+│  │  CommodityEng   │  │     CryptoEngine          │  │  PriceService │   │
+│  │  (TradingView   │  │  Binance WebSocket 1s     │  │  3-Tier Fetch │   │
+│  │   WS + scrapers)│  │  Port 28082               │  │  fast_info →  │   │
+│  └──────┬──────────┘  └───────────────┬───────────┘  │  history →    │   │
+│         │                             │              │  NSE fallback │   │  
+│  ┌──────▼─────────────────────────────▼──────────┐   └───────────────┘   │
+│  │           Plotly Dash Unified Dashboard         │                     │
 │  │  :8050 Equity │ :8052 Merged │ :8055 Auth │ :8070 News Intel          │
-│  │  Enterprise Auth · Flask-Login · TOTP 2FA · SQLite                   │
+│  │  Enterprise Auth · Flask-Login · TOTP 2FA · SQLite                    │
 │  └──────┬─────────────────────────────────────────┘                      │
 │         │                                                                │
 │  ┌──────▼────────────────────────────────────────────────────────────┐   │
 │  │  AutoHealer Watchdog  +  AlertMonitor  +  Telegram Bot            │   │
 │  │  Process resurrection · WiFi keepalive · Audit logs (20MB rotate) │   │
 │  └───────────────────────────────────────────────────────────────────┘   │
-│                                                                           │
+│                                                                          │
 │  Deploy: Docker Compose │ Render.com │ Ngrok tunnel │ VPS always-on      │
-└───────────────────────────────────────────────────────────────────────────┘
+└──────────────────────────────────────────────────────────────────────────┘
 ```
 
 <details>
@@ -247,43 +300,43 @@ Tier 3 → NSE direct scrape      (last resort)
 
 ```
 ┌───────────────────────────── SentinelVault ─────────────────────────────────┐
-│                                                                              │
-│  Client Layer                                                                │
+│                                                                             │
+│  Client Layer                                                               │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────────────────────┐  │
 │  │  CLI Tool   │  │  REST API   │  │  gRPC Service (mTLS / cert-pinned)  │  │
 │  └──────┬──────┘  └──────┬──────┘  └──────────────────┬──────────────────┘  │
 │         └────────────────┴─────────────────────────────┘                    │
-│                                   │                                          │
-│  Auth & Policy Layer              ▼                                          │
-│  ┌────────────────────────────────────────────────────────────────────────┐  │
-│  │  Zero-Trust Auth Gate                                                  │  │
-│  │  RBAC policy engine · JWT (RS256) · Argon2id password KDF             │  │
-│  │  TOTP 2FA (RFC 6238) · Hardware token support (FIDO2/WebAuthn)        │  │
-│  └────────────────────────────────────────────────────────────────────────┘  │
-│                                   │                                          │
-│  Crypto Core                      ▼                                          │
-│  ┌────────────────────────────────────────────────────────────────────────┐  │
-│  │  Envelope Encryption Pipeline                                          │  │
-│  │                                                                        │  │
-│  │  Plaintext → AES-256-GCM (DEK, 96-bit nonce, auth tag)                │  │
-│  │       DEK → RSA-4096-OAEP (KEK, SHA-256)                              │  │
-│  │       KEK → HSM boundary (PKCS#11) │ software fallback (secure mem)   │  │
-│  │                                                                        │  │
-│  │  Key rotation: automated, zero-downtime (shadow key strategy)         │  │
-│  │  Secret versioning: immutable append-only log per secret ID            │  │
-│  └────────────────────────────────────────────────────────────────────────┘  │
-│                                   │                                          │
-│  Storage Layer                    ▼                                          │
-│  ┌─────────────────────┐  ┌───────────────────────────────────────────────┐  │
-│  │  Encrypted Store    │  │  Audit Ledger                                 │  │
-│  │  SQLite (embedded)  │  │  Append-only · HMAC-SHA256 chain              │  │
-│  │  PostgreSQL (prod)  │  │  Tamper-evident: each entry signs the prior  │  │
-│  │  Encrypted blobs    │  │  Exportable: JSON / structured syslog         │  │
-│  └─────────────────────┘  └───────────────────────────────────────────────┘  │
-│                                                                              │
+│                                   │                                         │
+│  Auth & Policy Layer              ▼                                         │
+│  ┌────────────────────────────────────────────────────────────────────────┐ │
+│  │  Zero-Trust Auth Gate                                                  │ │
+│  │  RBAC policy engine · JWT (RS256) · Argon2id password KDF              │ │
+│  │  TOTP 2FA (RFC 6238) · Hardware token support (FIDO2/WebAuthn)         │ │
+│  └────────────────────────────────────────────────────────────────────────┘ │
+│                                   │                                         │
+│  Crypto Core                      ▼                                         │
+│  ┌────────────────────────────────────────────────────────────────────────┐ │
+│  │  Envelope Encryption Pipeline                                          │ │
+│  │                                                                        │ │
+│  │  Plaintext → AES-256-GCM (DEK, 96-bit nonce, auth tag)                 │ │
+│  │       DEK → RSA-4096-OAEP (KEK, SHA-256)                               │ │
+│  │       KEK → HSM boundary (PKCS#11) │ software fallback (secure mem)    │ │
+│  │                                                                        │ │
+│  │  Key rotation: automated, zero-downtime (shadow key strategy)          │ │
+│  │  Secret versioning: immutable append-only log per secret ID            │ │
+│  └────────────────────────────────────────────────────────────────────────┘ │
+│                                   │                                         │
+│  Storage Layer                    ▼                                         │
+│  ┌─────────────────────┐  ┌───────────────────────────────────────────────┐ │
+│  │  Encrypted Store    │  │  Audit Ledger                                 │ │
+│  │  SQLite (embedded)  │  │  Append-only · HMAC-SHA256 chain              │ │
+│  │  PostgreSQL (prod)  │  │  Tamper-evident: each entry signs the prior   │ │
+│  │  Encrypted blobs    │  │  Exportable: JSON / structured syslog         │ │
+│  └─────────────────────┘  └───────────────────────────────────────────────┘ │
+│                                                                             │
 │  Threat Model: compromised storage ✓ · stolen KEK ✓ · replay attacks ✓     │
 │               insider read access ✓ · timing side-channels ✓               │
-└──────────────────────────────────────────────────────────────────────────────┘
+└─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Cryptographic Spec Sheet
@@ -373,76 +426,6 @@ Each entry's HMAC chains from the previous — any tampering breaks the chain fr
 
 ---
 
-<!-- ══════════════════════════════════════════════════════════════════ -->
-<!--  GITHUB STATS                                                      -->
-<!-- ══════════════════════════════════════════════════════════════════ -->
-
-## 📊 GitHub Metrics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ridhaant&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d0d0d&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ridhaant&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d0d0d&title_color=00FF41&text_color=c9d1d9&langs_count=8" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=Ridhaant&theme=chartreuse-dark&hide_border=true&background=0d0d0d&ring=00FF41&fire=FF4500&currStreakLabel=00FF41&dates=c9d1d9" />
-
-</div>
-
----
-
-<!-- ══════════════════════════════════════════════════════════════════ -->
-<!--  3D CONTRIBUTION GRAPH                                             -->
-<!-- ══════════════════════════════════════════════════════════════════ -->
-
-## 🌐 3D Contribution Graph
-
-<div align="center">
-
-<!--
-  ┌─ SETUP INSTRUCTIONS ─────────────────────────────────────────────┐
-  │  1. Fork: https://github.com/yoshi389111/github-profile-3d-contrib│
-  │  2. Add the following GitHub Actions workflow to your profile repo │
-  │     at: .github/workflows/profile-3d.yml                         │
-  │  3. Enable Actions on your profile repo                           │
-  │  4. Replace Ridhaant below with your GitHub handle           │
-  └──────────────────────────────────────────────────────────────────┘
-
-  Workflow (.github/workflows/profile-3d.yml):
-
-  name: GitHub-Profile-3D-Contrib
-  on:
-    schedule:
-      - cron: "0 18 * * *"   # 00:00 IST daily
-    workflow_dispatch:
-  jobs:
-    build:
-      runs-on: ubuntu-latest
-      permissions:
-        contents: write
-      steps:
-        - uses: yoshi389111/github-profile-3d-contrib@0.7.1
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            USERNAME: ${{ github.repository_owner }}
-            SETTING_JSON: '{"backgroundColor":"#0d0d0d","blockStyle":{"type":"bar"},"contributionColorArray":["#003300","#006600","#009900","#00CC00","#00FF41"]}'
-        - name: Commit & Push
-          run: |
-            git config user.email "action@github.com"
-            git config user.name "GitHub Action"
-            git add -A
-            git diff --staged --quiet || git commit -m "chore: refresh 3D contrib graph"
-            git push
--->
-
-![3D Contrib Graph](./profile-3d-contrib/profile-gitblock.svg)
-
-*↑ Auto-generated nightly via [github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib). See setup instructions in source.*
-
-</div>
-
----
 
 <!-- ══════════════════════════════════════════════════════════════════ -->
 <!--  TECH STACK                                                        -->
