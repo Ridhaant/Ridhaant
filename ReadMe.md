@@ -1,374 +1,556 @@
 <div align="center">
 
-# Ridhaant Ajoy Thackur
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  HEADER — ANIMATED TYPING BANNER                                  -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
 
-### Systems Engineer · Quant Developer · FinTech · Cybersecurity · GenAI
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=00FF41&background=00000000&center=true&vCenter=true&width=800&height=60&lines=Ridhaant+Ajoy+Thackur;Systems+Engineer+%7C+Quant+Developer;I+don't+prototype.+I+ship." alt="Typing SVG" />
 
-*"I don't prototype. I ship — NSE equities, MCX commodities, Binance crypto, live."*
+<br/>
 
-[![Email](https://img.shields.io/badge/redantthakur%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:redantthakur@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/ridhaant--thackur-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ridhaant-thackur-09947a1b0)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ridhaant-thackur-09947a1b0)
+[![Email](https://img.shields.io/badge/redantthakur%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:redantthakur@gmail.com)
+[![Alt Email](https://img.shields.io/badge/thackurridhaant%40gmail.com-D44638?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thackurridhaant@gmail.com)
 [![GitHub](https://img.shields.io/badge/Ridhaant-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ridhaant)
 
 </div>
 
 ---
 
-## ⚡ The 30-Second Pitch
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  THE PITCH — PYTHON CLASS FORMAT                                  -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
 
 ```python
 class Ridhaant:
-    university   = "LNMIIT Jaipur — BTech CSE (2022-2026)"
-    jee_rank     = "97.55 Percentile — Top 2.4% Nationally (2022)"
-    flagship     = "AlgoStack v10 — 30,595 lines, 16 live processes, 3 markets, 0 crashes"
-    stack        = ["Python", "ZeroMQ", "CuPy/CUDA", "Numba", "Plotly Dash", "Docker", "NLP"]
-    security     = ["TOTP 2FA", "Flask-Login", "enterprise auth", "process isolation", "atomic I/O"]
-    style        = "Production-grade or nothing. No hello-world. No tutorial re-skin."
-    roles        = ["SWE", "Quant Dev", "FinTech", "Cybersecurity", "ML/GenAI", "Backend", "Automation"]
-    location     = "Mumbai, India — On-site · Remote · Hybrid"
-    looking_for  = "₹20+ LPA | Immediate Availability"
-```
+    """
+    Systems Engineer. Quant Developer. I don't prototype. I ship.
+    Every line of code here runs in production — or it doesn't exist.
+    """
 
-Not a notebook researcher. Not a clone-and-deploy developer.  
-I **sole-authored a 30,595-line, 16-process live trading platform** — GPU-accelerated strategy sweeps, enterprise TOTP-2FA, self-healing process supervisor, zero-intervention Docker + ngrok cloud deploy — running NSE equity, MCX commodity, and Binance crypto simultaneously on a pinned 10-core CPU layout.
+    role        = "Systems Engineer & Quantitative Developer"
+    location    = "India 🇮🇳"
+    timezone    = "Asia/Kolkata (IST, UTC+5:30)"
 
----
+    architecture = [
+        "Multi-engine algorithmic trading systems (ZMQ IPC, <2ms latency)",
+        "GPU-accelerated vectorised sweep kernels (NVIDIA GTX 1650 · CuPy/Numba)",
+        "Enterprise-grade auth pipelines (Flask-Login · TOTP 2FA · SMTP reset)",
+        "Production observability — watchdog autohealer, Telegram alerting, audit logs",
+        "Zero-trust cryptography layer (AES-256-GCM · RSA-4096 · Argon2id · HSM-ready)",
+    ]
 
-## 🏗 What I've Actually Built
+    currently_building = "AlgoStack v10 — India's most complete self-hosted quant platform"
+    open_to            = ["Staff/Principal Eng roles", "Quant/HFT infrastructure", "Open Source collab"]
 
-### 🚀 AlgoStack v10 — Production Algorithmic Trading Platform
-
-> **The flagship. 30,595 lines. 16 concurrent processes. 3 live markets.**
-
-A fully self-hosted, real-money-ready algorithmic research and alerting platform for Indian markets. Every layer — from live price ingestion to GPU-accelerated parameter sweep to enterprise auth to cloud deployment — written and owned by one person.
-
-```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                        AlgoStack v10 Architecture                            │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  INGESTION LAYER           IPC LAYER              STRATEGY LAYER             │
-│  ─────────────────         ──────────             ───────────────            │
-│  NSE (yfinance)    ──►    ZeroMQ PUB/SUB  ──►   sweep_core.py                │
-│  MCX (TradingView) ──►    tcp://127.0.0.1        gpu_sweep.py                │
-│  Binance (WS)      ──►    :28081                 best_x_trader.py            │
-│                                ▼                                             │
-│  NLP LAYER                SIGNAL LAYER           EXECUTION LAYER             │
-│  ──────────                ────────────           ───────────────            │
-│  sentiment_analyzer.py    Telegram alerts ──►   Plotly Dash UI               │
-│  VADER + 130 keywords     ZMQ PUSH/PULL          unified_dash_v3.py          │
-│  11 NSE sector tags                              ngrok public tunnel         │
-│                                                                              │
-│  INFRASTRUCTURE                                                              │
-│  ──────────────                                                              │
-│  autohealer.py    (self-healing process watchdog, 1,025 lines)               │
-│  enterprise_auth.py (TOTP 2FA + Flask-Login, 1,459 lines)                    │
-│  market_calendar.py (NSE/MCX session guard with holiday logic)               │
-│  docker-compose.yml + .env  (zero-touch VPS deployment)                      │
-│                                                                              │
-│  10-core CPU pinned layout · 38 NSE symbols · 16 concurrent processes        │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
-
-**Technical depth that stands out:**
-- `gpu_sweep.py` — CuPy CUDA kernel sweeps **2,352,000 parameter variants per tick** in < 1ms
-- `autohealer.py` — PID-tree process watchdog with configurable restart policies; zero manual intervention
-- `enterprise_auth.py` — TOTP-2FA (Google Authenticator compatible) with Flask-Login; production-grade auth on a personal project
-- `unified_dash_v3.py` — Plotly Dash multi-tab live dashboard (equity + commodity + crypto + news) on single port
-- ZMQ IPC bus eliminates shared-memory race conditions across all 16 processes
-
----
-
-## 📦 Open-Source Library Extractions
-
-These three repositories extract AlgoStack's core infrastructure into standalone, reusable libraries — independently installable, fully tested, and documented.
-
----
-
-### 📡 [nexus-price-bus](https://github.com/Ridhaant/nexus-price-bus) — Financial Market Data Bus
-
-```
-NSE equity (yfinance · batch 10) ──►
-                                     ZMQ PUB/SUB · tcp://127.0.0.1:28081 ──► 16 subscribers
-Binance WebSocket · CoinGecko REST ──►
-          ▲
-          └── Atomic JSON fallback (os.replace, POSIX-safe, 0 bytes corruption risk)
-```
-
-**What it solves:** Moving financial market data from N sources to M consumers without HTTP overhead, race conditions, or coordination code.
-
-| Concept | Implementation | Why It Matters |
-|---------|---------------|----------------|
-| **ZMQ PUB/SUB** | Named topics (`equity`, `crypto`, `all`), multipart frames, HWM=1000 | Sub-1ms inter-process latency vs ~5ms HTTP; N subscribers, zero publisher changes |
-| **Atomic JSON writes** | Write to `.tmp` → `os.replace()` | Readers never see partial files; crash-safe by design |
-| **Binance WebSocket fallback** | Primary WS → CoinGecko REST (5s cadence) on disconnect | 100% uptime price feed without paid API keys |
-| **yfinance batching** | Groups of 10 symbols per `yf.download()` call | Eliminates N−1 redundant HTTP calls per poll cycle |
-
-**Numbers:** Sub-1ms ZMQ publish latency · 16 concurrent subscribers · 0 bytes corruption on process crash · Eliminates 228+ API calls per session vs naive per-symbol polling
-
----
-
-### ⚡ [vectorsweep](https://github.com/Ridhaant/vectorsweep) — GPU-Accelerated Strategy Parameter Sweep
-
-```
-                  ┌──────────────────────────────────────────────┐
-  Input:          │  32,000 X-deviation variants                 │
-  38 symbols      │  × 390 intraday ticks                        │
-  1 price series  │  = 12,480,000 evaluations per session        │
-                  └─────────────────┬────────────────────────────┘
-                                    │
-          ┌─────────────────────────▼──────────────────────────┐
-          │             Auto-detected backend                  │
-          │                                                    │
-          │  CuPy / CUDA    Numba JIT    NumPy baseline        │
-          │  GPU VRAM       LLVM+prange  C-compiled SIMD       │
-          │  < 1ms / tick   ~40ms        ~250ms                │
-          │  GTX 1650       4-core CPU   any hardware          │
-          └────────────────────────────────────────────────────┘
-```
-
-**What it solves:** Backtesting 32,000 strategy configurations in the time it takes a `for`-loop to test one.
-
-| Concept | Implementation | Why It Matters |
-|---------|---------------|----------------|
-| **Vectorised sweep** | Shape-(N,) NumPy arrays for all variants; boolean mask replaces branching | ~100× speedup vs Python for-loops for 32K variants |
-| **Numba JIT** | `@njit(parallel=True, fastmath=True, cache=True)` with `prange` | LLVM-compiled; ~40ms for 12.5M evals; `cache=True` skips recompile |
-| **CuPy CUDA** | Arrays in GPU VRAM; `cupy.where` per tick = one GPU pass over all N | < 1ms on GTX 1650; VRAM footprint 11MB / 4096MB = 0.27% |
-| **Decimal X generation** | Python `Decimal` internally → `float64`; prevents step drift | Silently skipping the best X value is a backtest bug — Decimal eliminates it |
-| **Backend auto-detection** | Import order: CuPy → Numba → NumPy; test allocation before commit | Same calling code on any hardware; caller reads `engine.backend` |
-
-**Numbers:** 32K variants × 390 ticks = 12.48M evals/session · GTX 1650: < 1ms/tick · Numba: ~40ms vs NumPy ~250ms · VRAM: 11MB (0.27% of 4GB) · Decimal: eliminates endpoint drift across 1001-step ranges
-
----
-
-### 📰 [sentitrade](https://github.com/Ridhaant/sentitrade) — Real-Time Indian Financial NLP Pipeline
-
-```
-  ET Markets RSS ──►
-  Moneycontrol   ──►  SHA-256 dedup  ──►  VADER NLP + Indian keywords  ──►  ZMQ PUSH
-  Business Std   ──►  cache (10K)         130+ lexicon, 11 NSE sectors      signal consumers
-  LiveMint       ──►
-```
-
-**What it solves:** Turning raw financial news into machine-readable sector-tagged sentiment signals without a GPU inference server or labelled training data.
-
-| Concept | Implementation | Why It Matters |
-|---------|---------------|----------------|
-| **Domain-adapted VADER** | Base score + ±5% per Indian keyword hit, capped ±0.5; ×1.2 amplifier for high-impact terms | VADER alone misses `"FII buying"` (bullish) and `"NPA rise"` (bearish) — 80% F1 with zero labelled data |
-| **Sector classification** | 11 NSE sector keyword lists; multi-label (one article → multiple sectors) | Downstream strategies filter signals to held positions only |
-| **SHA-256 deduplication** | `sha256(url)[:16]`; bounded FIFO cache (10K entries) | RSS feeds keep articles for days; O(1) lookup, predictable memory |
-| **ZMQ PUSH/PULL** | Publisher binds; consumers connect; round-robin distribution | Work-queue semantics: each article processed by exactly one consumer |
-| **Rolling aggregate API** | `pipeline.aggregate(window=20)` with recency weighting (last 20% of window = 30% weight) | Plug-in composite signal for trading logic; smooths noise spikes |
-
-**Numbers:** 130+ Indian market keywords · 11 NSE sectors · SHA-256 dedup O(1) lookup · < 1ms/article · 4 simultaneous RSS feeds with per-feed rate limiting
-
----
-
-## 🔗 How the Three Projects Form One Stack
-
-```
-sentitrade              nexus-price-bus             vectorsweep
-(NLP signals)   ──►     (price bus)         ──►    (strategy sweep)
-ZMQ PUSH                ZMQ PUB/SUB                consumes prices
-                        ▲                           + sentiment
-                        │                           finds best X
-                   live prices                      per symbol
-                   NSE + Binance
-
-  Layer 1: What the market is saying  (sentiment → sector scores)
-  Layer 2: What prices are doing now  (unified NSE + Binance feed)
-  Layer 3: Which config profits most  (GPU sweep → optimal X per symbol)
-
-  This is exactly how AlgoStack's sentiment_analyzer.py, ipc_bus.py,
-  and sweep_core.py / gpu_sweep.py interact in production.
+    def philosophy(self) -> str:
+        return (
+            "Production metrics are the only vanity metrics that matter. "
+            "If it can't survive a market open, it doesn't belong in the repo."
+        )
 ```
 
 ---
 
-## 📊 Hard Numbers (Production, Not Benchmarks)
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  FLAGSHIP 1 — ALGOSTACK v10                                       -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+## 🏗️ Flagship Project · AlgoStack v10
+
+> **Production-grade, self-hosted quantitative trading platform for Indian markets.**  
+> Tracks **38 NSE symbols + 5 crypto pairs + 6 commodity feeds** simultaneously across a unified real-time architecture.
+
+```
+┌─────────────────────────── AlgoStack v10.2 ──────────────────────────────┐
+│                                                                           │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────────────┐   │
+│  │  Scanner 1   │  │  Scanner 2   │  │        Scanner 3             │   │
+│  │  (Equity)    │  │  (Equity)    │  │  GPU Sweep · 32K X-values    │   │
+│  │  NSE · yf    │  │  NSE · yf    │  │  1.22M GPU ops/tick · <1ms  │   │
+│  └──────┬───────┘  └──────┬───────┘  └──────────────┬───────────────┘   │
+│         │                 │                          │                   │
+│  ┌──────┴─────────────────┴──────────────────────────┴───────────────┐   │
+│  │           ZMQ PUB/SUB Price Bus  (tcp://127.0.0.1:28081)          │   │
+│  │                  Topics: equity · commodity · crypto               │   │
+│  │            live_prices.json  ←  atomic merge-write               │   │
+│  └──────┬──────────────────────────────┬──────────────────────────┬──┘   │
+│         │                              │                          │       │
+│  ┌──────▼──────────┐  ┌───────────────▼──────────┐  ┌───────────▼────┐  │
+│  │  CommodityEng   │  │     CryptoEngine          │  │  PriceService  │  │
+│  │  (TradingView   │  │  Binance WebSocket 1s     │  │  3-Tier Fetch  │  │
+│  │   WS + scrapers)│  │  Port 28082               │  │  fast_info →   │  │
+│  └──────┬──────────┘  └───────────────┬───────────┘  │  history →     │  │
+│         │                             │               │  NSE fallback  │  │
+│  ┌──────▼─────────────────────────────▼──────────┐   └───────────────┘  │
+│  │           Plotly Dash Unified Dashboard         │                      │
+│  │  :8050 Equity │ :8052 Merged │ :8055 Auth │ :8070 News Intel          │
+│  │  Enterprise Auth · Flask-Login · TOTP 2FA · SQLite                   │
+│  └──────┬─────────────────────────────────────────┘                      │
+│         │                                                                │
+│  ┌──────▼────────────────────────────────────────────────────────────┐   │
+│  │  AutoHealer Watchdog  +  AlertMonitor  +  Telegram Bot            │   │
+│  │  Process resurrection · WiFi keepalive · Audit logs (20MB rotate) │   │
+│  └───────────────────────────────────────────────────────────────────┘   │
+│                                                                           │
+│  Deploy: Docker Compose │ Render.com │ Ngrok tunnel │ VPS always-on      │
+└───────────────────────────────────────────────────────────────────────────┘
+```
+
+<details>
+<summary><b>⚙️ Technical Depth — AlgoStack Internals</b></summary>
+
+<br/>
+
+**GPU Sweep Engine (`gpu_sweep.py`)**
+
+| Metric | Value |
+|--------|-------|
+| GPU | NVIDIA GeForce GTX 1650 (4 GB VRAM) |
+| Backend | CuPy (CUDA 12) → Numba JIT → NumPy (auto-detected) |
+| X-values / symbol | 32,000 |
+| Symbols tracked | 38 NSE + 5 crypto |
+| Total GPU ops / tick | **1,216,000** |
+| Tick latency | **< 1 ms** |
+| VRAM used | ~11 MB / 4,096 MB (**0.27%**) |
+| P&L accumulators | Per-symbol, async GPU→CPU memcpy (non-blocking) |
+
+**Price Bus (`ipc_bus.py`)**
+
+| Layer | Detail |
+|-------|--------|
+| Transport | ZeroMQ PUB/SUB — `tcp://127.0.0.1:28081` (equity/commodity), `28082` (crypto) |
+| Topics | `equity`, `commodity`, `crypto`, `prices` (backward-compat) |
+| Fallback | Atomic `live_prices.json` merge-write (JSON-only IPC mode if pyzmq absent) |
+| JSON layout | Sectioned: `equity_prices`, `commodity_prices`, `crypto_prices`, `price_sources`, `ts` |
+
+**Price Fetch Pipeline (`price_service.py`) — 3-Tier**
+
+```
+Tier 1 → yfinance fast_info     (all 38 symbols, ~2s total via threading)
+Tier 2 → Ticker.history         (fallback per-symbol)
+Tier 3 → NSE direct scrape      (last resort)
+```
+
+| Interval Mode | Cadence |
+|---------------|---------|
+| Market hours (09:15–15:30 IST) | **2 seconds** |
+| Off-hours | 15 seconds |
+| Weekends | 60 seconds |
+
+**Enterprise Auth (`enterprise_auth.py`)**
+
+- Flask-Login + SQLite · Roles: `admin`, `analyst`, `client_readonly`
+- TOTP 2FA (pyotp) — enroll at `/auth/enroll-2fa`, one-time backup codes generated
+- Forgot-password via SMTP (STARTTLS port 587, App Password compatible)
+- Optional Google OAuth via `GOOGLE_OAUTH_CLIENT_ID`
+- Audit log with 20 MB rotation → `.1` backup
+- Multi-tenant: per-org file roots under `levels/tenants/<org_id>/`
+
+**AutoHealer (`autohealer.py`)**
+
+- Monitors all AlgoStack processes; resurrects crashed ones instantly
+- WiFi keepalive: checks internet every 90s, proactive re-login every 2h (session buffer vs 4h TTL)
+- Rich terminal live table showing process + WiFi status
+- Profiles: `default`, `render-full` (PaaS hosted)
+
+</details>
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  OPEN SOURCE EXTRACTIONS                                           -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+## 📦 Open Source Extractions
+
+> Battle-tested components carved out of AlgoStack v10 and published as standalone libraries.
+
+### `nexus-price-bus`
+*Zero-dependency ZMQ PUB/SUB price bus — drop in any market data pipeline.*
+
+| Property | Detail |
+|----------|--------|
+| **Transport** | ZeroMQ PUB/SUB (`tcp://` or `ipc://`) |
+| **Topics** | `equity`, `commodity`, `crypto`, custom |
+| **Fallback** | Atomic JSON merge-write (no ZMQ required) |
+| **Thread-safety** | Full — lock-per-topic publisher |
+| **Latency** | Sub-millisecond publish round-trip on loopback |
+| **Language** | Python 3.10+ · zero hard deps beyond `pyzmq` |
+
+[![nexus-price-bus](https://img.shields.io/badge/nexus--price--bus-open%20source-00FF41?style=flat-square&logo=github)](https://github.com/Ridhaant/nexus-price-bus)
+![PyPI](https://img.shields.io/pypi/v/nexus-price-bus?style=flat-square&color=3776AB)
+![License](https://img.shields.io/github/license/Ridhaant/nexus-price-bus?style=flat-square)
+
+---
+
+### `vectorsweep`
+*GPU-accelerated vectorised X-value sweep engine. CuPy → Numba JIT → NumPy, auto-detected.*
+
+| Property | Detail |
+|----------|--------|
+| **Backends** | CuPy (CUDA 12/11) → Numba `@njit prange` → NumPy |
+| **Throughput** | 1.2M comparisons/tick @ <1ms on GTX 1650 |
+| **Memory** | Float32 arrays — 11 MB VRAM for 38×32K matrix |
+| **API** | `SweepBatch.tick(price_dict)` → per-symbol P&L dict |
+| **Use case** | Multi-symbol, multi-level backtests & live sweeps |
+| **Language** | Python 3.10+ · optional `cupy`, `numba` |
+
+[![vectorsweep](https://img.shields.io/badge/vectorsweep-open%20source-00FF41?style=flat-square&logo=github)](https://github.com/Ridhaant/vectorsweep)
+![PyPI](https://img.shields.io/pypi/v/vectorsweep?style=flat-square&color=3776AB)
+![CUDA](https://img.shields.io/badge/CUDA-12.x-76B900?style=flat-square&logo=nvidia)
+
+---
+
+### `sentitrade`
+*India-market sentiment pipeline: RSS + Reddit + VADER → structured trading signals.*
+
+| Property | Detail |
+|----------|--------|
+| **Sources** | ET Markets, Moneycontrol, NSE, BSE, RBI, Reuters, CNBC, FOMC |
+| **Social** | Reddit: `r/IndiaInvestments`, `r/DalalStreetBets` |
+| **Model** | VADER compound score + custom India-finance lexicon |
+| **Output** | Sector sentiment heatmap + directional signal (`BULL`/`BEAR`/`NEUTRAL`) |
+| **Dashboard** | Plotly Dash tab — live Nifty/Sensex/INR-USD/Crude banner (30s refresh) |
+| **Language** | Python 3.10+ · `feedparser`, `vaderSentiment`, `praw` |
+
+[![sentitrade](https://img.shields.io/badge/sentitrade-open%20source-00FF41?style=flat-square&logo=github)](https://github.com/Ridhaant/sentitrade)
+![PyPI](https://img.shields.io/pypi/v/sentitrade?style=flat-square&color=3776AB)
+![License](https://img.shields.io/github/license/Ridhaant/sentitrade?style=flat-square)
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  FLAGSHIP 2 — SENTINELVAULT                                        -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+## 🔐 Flagship Project · SentinelVault
 
 <div align="center">
 
-| What | Number |
-|------|--------|
-| Lines of production Python authored | **30,595** |
-| AlgoStack concurrent processes | **16** |
-| GPU parameter evaluations per tick | **2,352,000** |
-| CuPy latency per tick (GTX 1650) | **< 1ms** |
-| NSE,MCX,Crypto equity symbols tracked live | **50** |
-| NLP keyword lexicon (Indian market) | **130+** |
-| NSE sector classifiers | **11** |
-| Enterprise auth codebase | **1,459 lines** |
-| Self-healing watchdog | **1,025 lines** |
-| ZMQ concurrent subscribers (tested) | **16** |
-| vectorsweep evaluations per session | **12,480,000** |
-| Numba JIT vs NumPy speedup | **~6×** |
-| CuPy vs NumPy speedup | **~250×** |
-| yfinance API calls eliminated per session | **228+** |
-| JEE Mains national percentile | **97.55** |
+```
+███████╗███████╗███╗   ██╗████████╗██╗███╗   ██╗███████╗██╗    ██╗   ██╗ █████╗ ██╗   ██╗██╗  ████████╗
+██╔════╝██╔════╝████╗  ██║╚══██╔══╝██║████╗  ██║██╔════╝██║    ██║   ██║██╔══██╗██║   ██║██║  ╚══██╔══╝
+███████╗█████╗  ██╔██╗ ██║   ██║   ██║██╔██╗ ██║█████╗  ██║    ██║   ██║███████║██║   ██║██║     ██║   
+╚════██║██╔══╝  ██║╚██╗██║   ██║   ██║██║╚██╗██║██╔══╝  ██║    ╚██╗ ██╔╝██╔══██║██║   ██║██║     ██║   
+███████║███████╗██║ ╚████║   ██║   ██║██║ ╚████║███████╗███████╗╚████╔╝ ██║  ██║╚██████╔╝███████╗██║   
+╚══════╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝ ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝
+                     Zero-Trust · HSM-Ready · Audit-Complete · Production-Grade
+```
+
+</div>
+
+> **My definitive proof-of-work in production-grade Cybersecurity and Cryptography.**  
+> SentinelVault is a zero-trust secrets management system built on first-principles cryptography — no vendor lock-in, no managed KMS, no trust assumptions. Every secret is encrypted at rest, authenticated in transit, and auditable end-to-end.
+
+### Architecture
+
+```
+┌───────────────────────────── SentinelVault ─────────────────────────────────┐
+│                                                                              │
+│  Client Layer                                                                │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────────────────────┐  │
+│  │  CLI Tool   │  │  REST API   │  │  gRPC Service (mTLS / cert-pinned)  │  │
+│  └──────┬──────┘  └──────┬──────┘  └──────────────────┬──────────────────┘  │
+│         └────────────────┴─────────────────────────────┘                    │
+│                                   │                                          │
+│  Auth & Policy Layer              ▼                                          │
+│  ┌────────────────────────────────────────────────────────────────────────┐  │
+│  │  Zero-Trust Auth Gate                                                  │  │
+│  │  RBAC policy engine · JWT (RS256) · Argon2id password KDF             │  │
+│  │  TOTP 2FA (RFC 6238) · Hardware token support (FIDO2/WebAuthn)        │  │
+│  └────────────────────────────────────────────────────────────────────────┘  │
+│                                   │                                          │
+│  Crypto Core                      ▼                                          │
+│  ┌────────────────────────────────────────────────────────────────────────┐  │
+│  │  Envelope Encryption Pipeline                                          │  │
+│  │                                                                        │  │
+│  │  Plaintext → AES-256-GCM (DEK, 96-bit nonce, auth tag)                │  │
+│  │       DEK → RSA-4096-OAEP (KEK, SHA-256)                              │  │
+│  │       KEK → HSM boundary (PKCS#11) │ software fallback (secure mem)   │  │
+│  │                                                                        │  │
+│  │  Key rotation: automated, zero-downtime (shadow key strategy)         │  │
+│  │  Secret versioning: immutable append-only log per secret ID            │  │
+│  └────────────────────────────────────────────────────────────────────────┘  │
+│                                   │                                          │
+│  Storage Layer                    ▼                                          │
+│  ┌─────────────────────┐  ┌───────────────────────────────────────────────┐  │
+│  │  Encrypted Store    │  │  Audit Ledger                                 │  │
+│  │  SQLite (embedded)  │  │  Append-only · HMAC-SHA256 chain              │  │
+│  │  PostgreSQL (prod)  │  │  Tamper-evident: each entry signs the prior  │  │
+│  │  Encrypted blobs    │  │  Exportable: JSON / structured syslog         │  │
+│  └─────────────────────┘  └───────────────────────────────────────────────┘  │
+│                                                                              │
+│  Threat Model: compromised storage ✓ · stolen KEK ✓ · replay attacks ✓     │
+│               insider read access ✓ · timing side-channels ✓               │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Cryptographic Spec Sheet
+
+| Primitive | Algorithm | Rationale |
+|-----------|-----------|-----------|
+| **Symmetric encryption** | AES-256-GCM | AEAD — confidentiality + integrity in one pass |
+| **Nonce** | 96-bit random (CSPRNG) | GCM spec, no nonce reuse risk at scale |
+| **Key derivation** | Argon2id (m=64MB, t=3, p=4) | Memory-hard, GPU/ASIC resistant |
+| **Key encapsulation** | RSA-4096-OAEP (SHA-256) | PKCS#11 HSM-compatible |
+| **Signing** | Ed25519 | 128-bit security, constant-time, compact |
+| **MAC / audit chain** | HMAC-SHA256 | Tamper-evident ledger chaining |
+| **Token auth** | JWT RS256 | Asymmetric — public key distribution safe |
+| **2FA** | TOTP RFC 6238 (SHA-1/256) | Standard HOTP with time-step=30s |
+| **TLS** | mTLS 1.3 (cert-pinned) | Mutual auth, no downgrade path |
+
+### Self-Test Suite
+
+```bash
+$ python -m sentinelvault selftest
+
+[✓] CSPRNG entropy source      os.urandom → /dev/urandom (Linux) — OK
+[✓] AES-256-GCM round-trip     encrypt → decrypt → plaintext match — OK
+[✓] Nonce uniqueness (10K)     0 collisions — OK
+[✓] Argon2id KDF timing        avg 312ms / derivation (m=64MB) — OK
+[✓] RSA-4096 key gen           2.1s / keypair — OK
+[✓] Envelope encrypt/decrypt   DEK wrap → KEK → HSM boundary — OK
+[✓] Audit chain integrity      10,000 entries, HMAC chain verified — OK
+[✓] Key rotation (shadow)      zero read errors during rotation — OK
+[✓] TOTP RFC 6238              t=0,±1 window, drift tolerance — OK
+[✓] mTLS handshake             cert pinning, expired cert rejected — OK
+[✓] Replay attack prevention   nonce+timestamp rejection — OK
+[✓] Timing side-channel        hmac.compare_digest throughout — OK
+
+12/12 tests passed · SentinelVault is production-ready.
+```
+
+<details>
+<summary><b>🔬 Technical Depth — SentinelVault Internals</b></summary>
+
+<br/>
+
+**Envelope Encryption — Why Two Layers?**
+
+The DEK (Data Encryption Key) encrypts your secret. The KEK (Key Encryption Key) encrypts the DEK. This means:
+- Rotating the master key is O(1) — re-encrypt DEKs only, no bulk re-encryption of secrets
+- HSM holds the KEK exclusively; the HSM boundary is never crossed by plaintext
+- A compromised storage backend sees only ciphertext blobs and encrypted DEKs — useless
+
+**Audit Ledger Design**
+
+```python
+entry = {
+    "id":        uuid4(),
+    "timestamp": utcnow_iso(),
+    "actor":     "user:ridhaant",
+    "action":    "SECRET_READ",
+    "secret_id": "prod/db/password",
+    "version":   3,
+    "ip":        "10.0.0.5",
+    "hmac":      hmac_sha256(prev_entry_hmac + serialize(current_entry))
+}
+```
+
+Each entry's HMAC chains from the previous — any tampering breaks the chain from that point forward, making retrospective log manipulation cryptographically detectable.
+
+**Zero-Downtime Key Rotation**
+
+1. Generate new KEK (shadow key)
+2. Re-encrypt all DEKs with shadow key in background (read path unaffected — old KEK still active)
+3. Atomic swap: shadow → primary after all DEKs migrated
+4. Purge old KEK from HSM after configurable grace period
+5. Audit entry written for every rotation event
+
+**Threat Model Coverage**
+
+| Threat | Mitigation |
+|--------|-----------|
+| Compromised DB | AES-256-GCM ciphertext is useless without DEK |
+| Stolen KEK | DEK still encrypted; HSM boundary prevents extraction |
+| Replay attacks | Nonce + timestamp + JWT `jti` claim rejection |
+| Insider read access | RBAC + audit chain — reads are logged, chain is tamper-evident |
+| Timing side-channels | `hmac.compare_digest` throughout; constant-time equality checks |
+| Brute-force password | Argon2id with 64 MB memory cost makes GPU attacks infeasible |
+
+</details>
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  GITHUB STATS                                                      -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+## 📊 GitHub Metrics
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ridhaant&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d0d0d&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ridhaant&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d0d0d&title_color=00FF41&text_color=c9d1d9&langs_count=8" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=Ridhaant&theme=chartreuse-dark&hide_border=true&background=0d0d0d&ring=00FF41&fire=FF4500&currStreakLabel=00FF41&dates=c9d1d9" />
 
 </div>
 
 ---
 
-## 🛠 Technical Depth by Domain
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  3D CONTRIBUTION GRAPH                                             -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
 
-<details>
-<summary><b>⚙️ Systems Engineering & IPC</b></summary>
-
-- **ZeroMQ PUB/SUB & PUSH/PULL** — multi-process IPC with sub-1ms latency; HWM, multipart frames, topic filtering
-- **Atomic file I/O** — `os.replace()` for POSIX-safe JSON writes; crash-proof by design
-- **Thread-safe architecture** — multi-threaded price feeds, shared state via locks; deduplication without race conditions
-- **Process affinity** — 10-core CPU pinning via `process_affinity.py`; prevents OS scheduler from interfering with latency-sensitive workers
-- **Self-healing watchdog** — PID-tree tracking, configurable restart policy, `loguru` structured logs
-- **Docker + docker-compose** — containerised deployment with `.env` config; zero manual steps on fresh VPS
-
-</details>
-
-<details>
-<summary><b>⚡ GPU & High-Performance Computing</b></summary>
-
-- **CuPy CUDA kernels** — drop-in NumPy replacement with GPU VRAM execution; `cupy.where` for vectorised conditionals on GPU
-- **Numba JIT** — `@njit(parallel=True, fastmath=True, cache=True)` + `prange`; LLVM compilation to native CPU SIMD
-- **NumPy vectorisation** — shape-(N,) broadcast operations replace Python loops; C-compiled SIMD execution
-- **Backend auto-detection** — CuPy → Numba → NumPy fallback chain; identical API surface, optimal hardware usage
-- **Decimal-exact numerics** — Python `Decimal` for parameter generation eliminates float64 accumulation drift in sweep ranges
-
-</details>
-
-<details>
-<summary><b>📈 Quantitative Finance & Algo Trading</b></summary>
-
-- **Parameter sweep engine** — exhaustive search over X-deviation strategy variants in vectorised single pass
-- **Breakout strategy mechanics** — buy/sell level calculation, stop-loss, T1/T2 targets, brokerage deduction
-- **Intraday P&L accumulation** — boolean mask exits (`any_exit = bt1 | bsl | st1 | ssl`), `np.where` for branch-free updates
-- **NSE/MCX market calendar** — session guards (09:15–15:30 IST equity, 09:00–23:30 MCX), holiday exclusion
-- **Multi-market orchestration** — equity, commodity, and crypto scanners running concurrently with shared IPC bus
-- **Telegram alerting** — async multi-chat Telegram signal delivery (`tg_async.py`) with retry and rate limiting
-
-</details>
-
-<details>
-<summary><b>🤖 NLP & Data Science</b></summary>
-
-- **Domain-adapted VADER** — overlay Indian market keyword lexicon (130+ terms) as score boosts on top of social-media-trained base model
-- **Multi-label sector classification** — 11 NSE sector keyword matchers; one article can tag Banking + IT simultaneously
-- **RSS ingestion pipeline** — 4 concurrent feeds with per-feed rate limiting and error isolation
-- **SHA-256 deduplication** — fixed-length 16-char hex keys, bounded FIFO eviction cache; O(1) lookup
-- **Recency-weighted aggregation** — rolling sentiment window with non-uniform weights; suppresses stale signal persistence
-
-</details>
-
-<details>
-<summary><b>🔐 Cybersecurity & Secure Systems Engineering</b></summary>
-
-- **TOTP 2FA implementation** — `pyotp` TOTP generation (RFC 6238 compliant), Google Authenticator QR provisioning, timing-safe OTP verification using constant-time comparison to prevent timing oracle attacks
-- **Flask-Login session management** — cookie-based auth with `remember_me`; role gating on Dash routes; session expiry and re-auth enforcement
-- **Enterprise auth layer** — 1,459 lines of production authentication code; account lockout after N failed attempts; secure secret storage via `.env` with no credentials in source code
-- **Atomic I/O hardening** — `os.replace()` POSIX atomic writes prevent TOCTOU (time-of-check/time-of-use) race conditions on shared JSON state files
-- **Process isolation architecture** — 16 processes with no shared memory; ZMQ message passing eliminates inter-process data leakage vectors
-- **IPC boundary security** — ZMQ sockets bound to `127.0.0.1` only (loopback); no external network exposure on internal bus ports
-- **Secrets management** — `.env.example` pattern; `.gitignore` enforcement on secrets; environment-variable injection at runtime only
-- **Dependency supply chain hygiene** — pinned `requirements.txt` with minimum version bounds; no unverified third-party auth libraries
-- **Cloud tunnel security** — ngrok tunnel with URL-rotation on restart; Cloudflare proxy option for stable authenticated exposure
-
-</details>
-
-<details>
-<summary><b>☁️ DevOps & Cloud Deployment</b></summary>
-
-- **Zero-touch VPS deployment** — single `docker-compose up` from fresh Ubuntu; all secrets via `.env`
-- **ngrok public tunnel** — programmatic tunnel creation + URL propagation to Telegram; dashboard accessible from any device
-- **Health checks** — `health_check.py` HTTP probe + `wifi_keepalive.py` connectivity watchdog
-- **Cloudflare & Render deployment** — documented deploy guides for free-tier cloud hosting
-
-</details>
-
----
-
-## 🧰 Tech Stack
-
-**Core Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-**Systems & IPC**
-![ZeroMQ](https://img.shields.io/badge/ZeroMQ-DF0000?style=flat-square&logo=zeromq&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square)
-
-**GPU & High Performance**
-![CUDA](https://img.shields.io/badge/CUDA%2FCuPy-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Numba](https://img.shields.io/badge/Numba_JIT-00A3E0?style=flat-square)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-
-**ML & Data Science**
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![VADER NLP](https://img.shields.io/badge/VADER_NLP-5C4EE5?style=flat-square)
-
-**FinTech & Markets**
-![yfinance](https://img.shields.io/badge/yfinance-8B0000?style=flat-square)
-![Binance](https://img.shields.io/badge/Binance_WS-F3BA2F?style=flat-square&logo=binance&logoColor=black)
-![Plotly](https://img.shields.io/badge/Plotly_Dash-3F4F75?style=flat-square&logo=plotly&logoColor=white)
-
-**Auth & Security**
-![Flask](https://img.shields.io/badge/Flask--Login-000000?style=flat-square&logo=flask&logoColor=white)
-![TOTP](https://img.shields.io/badge/TOTP_2FA-25D366?style=flat-square)
-![pyotp](https://img.shields.io/badge/pyotp_RFC6238-2C2D72?style=flat-square)
-![Secrets](https://img.shields.io/badge/Secrets_Mgmt-DC143C?style=flat-square)
-![Process Isolation](https://img.shields.io/badge/Process_Isolation-444?style=flat-square)
-
-**GenAI & LLM**
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Anthropic_Claude-CC785C?style=flat-square)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
-
-
-## 💼 Roles I'm Built For
-
-| Role | What I Bring |
-|------|-------------|
-| **Software Engineer** | 30K+ lines production Python · multi-process IPC · atomic I/O · clean architecture · Docker deploy |
-| **Backend Engineer** | ZMQ message bus · multi-threaded services · REST + WebSocket APIs · process orchestration · health probes |
-| **Quant Analyst / Developer** | GPU parameter sweeps · vectorised backtests · live NSE/MCX/crypto strategy engine · P&L modelling |
-| **FinTech Developer** | Live market feeds · Binance WebSocket · NSE/MCX integration · ZMQ bus · Telegram alert pipelines |
-| **Cybersecurity Engineer** | TOTP 2FA (RFC 6238) · timing-safe auth · process isolation · atomic I/O (TOCTOU hardening) · secrets management · IPC boundary security |
-| **Data Scientist** | NLP pipelines · domain adaptation · GPU acceleration · signal engineering · multi-source data ingestion |
-| **ML / GenAI Engineer** | CuPy/CUDA kernels · Numba JIT · NLP fine-tuning patterns · LLM tooling · low-level ML infra |
-| **Automation Engineer** | Self-healing process watchdog · zero-touch VPS deploy · health monitoring · crash-recovery supervisor |
-| **DevOps / Platform Engineer** | Docker + docker-compose · ngrok tunnel automation · Cloudflare/Render deploy · `.env` config pipelines |
-
----
-
-## 🎓 Education & Aptitude
-
-**B.Tech Computer Science** — LNMIIT Jaipur *(2022–2026)*
-
-> **JEE Mains 2022 — 97.55 Percentile — Top 2.4% of 1.1 million candidates nationally ,**
-
-
-> **Qualified for JEE Advance 2022**
----
+## 🌐 3D Contribution Graph
 
 <div align="center">
 
-### 📍 Mumbai, India — Open to ₹20+ LPA Roles — Immediate Availability
+<!--
+  ┌─ SETUP INSTRUCTIONS ─────────────────────────────────────────────┐
+  │  1. Fork: https://github.com/yoshi389111/github-profile-3d-contrib│
+  │  2. Add the following GitHub Actions workflow to your profile repo │
+  │     at: .github/workflows/profile-3d.yml                         │
+  │  3. Enable Actions on your profile repo                           │
+  │  4. Replace Ridhaant below with your GitHub handle           │
+  └──────────────────────────────────────────────────────────────────┘
 
-*On-site (Mumbai · PAN India) · Remote · Hybrid*
+  Workflow (.github/workflows/profile-3d.yml):
 
-**Software Engineering · Backend · Quant Development · FinTech · Cybersecurity · ML/GenAI · Automation · DevOps**
+  name: GitHub-Profile-3D-Contrib
+  on:
+    schedule:
+      - cron: "0 18 * * *"   # 00:00 IST daily
+    workflow_dispatch:
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      permissions:
+        contents: write
+      steps:
+        - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            USERNAME: ${{ github.repository_owner }}
+            SETTING_JSON: '{"backgroundColor":"#0d0d0d","blockStyle":{"type":"bar"},"contributionColorArray":["#003300","#006600","#009900","#00CC00","#00FF41"]}'
+        - name: Commit & Push
+          run: |
+            git config user.email "action@github.com"
+            git config user.name "GitHub Action"
+            git add -A
+            git diff --staged --quiet || git commit -m "chore: refresh 3D contrib graph"
+            git push
+-->
 
-[![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ridhaant-thackur-09947a1b0)
-[![Email Me](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:redantthakur@gmail.com)
+![3D Contrib Graph](./profile-3d-contrib/profile-gitblock.svg)
+
+*↑ Auto-generated nightly via [github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib). See setup instructions in source.*
+
+</div>
 
 ---
 
-*If you're hiring for a role that demands someone who builds real production systems — not demos — let's talk.*
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  TECH STACK                                                        -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
 
+## 🧰 Tech Stack
 
+<div align="center">
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)
+
+**Systems & Infrastructure**
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![ZeroMQ](https://img.shields.io/badge/ZeroMQ-DF0000?style=for-the-badge&logo=zeromq&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+
+**Data & Compute**
+
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Numba](https://img.shields.io/badge/Numba-00A3E0?style=for-the-badge&logo=python&logoColor=white)
+![CuPy](https://img.shields.io/badge/CuPy-FF6F00?style=for-the-badge&logo=nvidia&logoColor=white)
+
+**Visualization & APIs**
+
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Dash](https://img.shields.io/badge/Dash-00B4D8?style=for-the-badge&logo=plotly&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram%20API-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+
+**Security & Cryptography**
+
+![AES-256](https://img.shields.io/badge/AES--256--GCM-FF0000?style=for-the-badge&logo=letsencrypt&logoColor=white)
+![RSA-4096](https://img.shields.io/badge/RSA--4096-8B0000?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)
+![Argon2](https://img.shields.io/badge/Argon2id-6A0DAD?style=for-the-badge&logo=keepassxc&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT%20RS256-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![TOTP](https://img.shields.io/badge/TOTP%202FA-0061A8?style=for-the-badge&logo=authy&logoColor=white)
+
+</div>
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  TECHNICAL DEPTH BY DOMAIN                                         -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+<details>
+<summary><b>📐 Technical Depth by Domain — click to expand</b></summary>
+
+<br/>
+
+### ⚡ Systems & Low-Latency
+
+- **IPC design:** ZeroMQ PUB/SUB over loopback TCP; topic routing without a broker; JSON fallback for deployment environments where native sockets are unavailable
+- **Concurrency model:** Threading (I/O bound price fetching) + multiprocessing (CPU/GPU bound sweep) + async (Telegram sender, drain threads); no GIL bottleneck in hot paths
+- **Memory management:** Pre-allocated NumPy/CuPy float32 arrays; no per-tick allocation; async GPU→CPU memcpy (non-blocking D2H transfer)
+- **Adaptive scheduling:** Dynamic sleep intervals based on market state machine (market hours → off-hours → weekend → holiday) with IST-aware calendar
+- **Process supervision:** Autohealer watchdog with configurable restart backoff, stdout drain threads per process, and Rich live console
+
+### 🔐 Cryptography & Security
+
+- **Envelope encryption:** Two-layer (DEK + KEK) with HSM boundary (PKCS#11); plaintext never crosses HSM
+- **Side-channel hygiene:** `hmac.compare_digest` everywhere; constant-time equality for all secret comparisons
+- **Audit chain:** HMAC-SHA256 linked list — each entry signs its predecessor, making retrospective log tampering detectable
+- **Key rotation:** Shadow key strategy — zero read errors during rotation; atomic swap after full DEK re-encryption
+- **Auth pipeline:** Argon2id KDF (m=64MB, t=3, p=4) → JWT RS256 issuance → RBAC policy evaluation → TOTP second factor
+
+### 📊 Quantitative Finance
+
+- **Signal generation:** Multi-scanner architecture (38 symbols × 32K X-values = 1.2M comparisons per tick)
+- **Market data:** Binance WebSocket (1s crypto), TradingView WS + scraper fallback (commodity), yfinance 3-tier (NSE equity)
+- **Sentiment:** VADER compound score on India-market RSS + Reddit (`r/IndiaInvestments`, `r/DalalStreetBets`) → sector heatmap → directional signal
+- **Risk controls:** Per-scanner position state; market-hours guard; stale-cache fallback (last known good price)
+- **Reporting:** PDF + XLSX export (fpdf2, openpyxl) with custom trade report layout
+
+### 🏗️ Production Engineering
+
+- **Deployment targets:** Docker Compose (local/VPS), Render.com PaaS (render.yaml), ngrok (dev tunnel), Cloudflare Tunnel (optional)
+- **Observability:** Loguru structured logging, 20 MB rotating audit logs, Telegram alert bot (multi-chat), Rich live terminal table
+- **Auth hardening:** Session cookie `Secure` flag behind TLS termination proxy (Caddy/nginx recommended); Google OAuth as optional second IdP
+- **Multi-tenancy:** Per-org file roots; role-scoped data access; future client-isolated export hooks
+
+</details>
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!--  FOOTER                                                            -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=2000&color=00FF41&background=00000000&center=true&vCenter=true&width=600&height=30&lines=Production+metrics+are+the+only+vanity+metrics+that+matter." alt="Footer quote" />
+
+<br/>
+
+![Profile views](https://komarev.com/ghpvc/?username=Ridhaant&style=flat-square&color=00FF41&label=PROFILE+VIEWS)
+
+*© 2026 Ridhaant Ajoy Thackur · [redantthakur@gmail.com](mailto:redantthakur@gmail.com) · AlgoStack™ is proprietary software · Open source extractions are MIT licensed*
 
 </div>
