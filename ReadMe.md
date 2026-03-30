@@ -11,7 +11,7 @@
 
 # Ridhaant Ajoy Thackur
 
-### Systems Engineer · Quant Developer · FinTech Infrastructure · GenAI
+### Systems Engineer · Quant Developer · FinTech · Cybersecurity · GenAI
 
 *"I don't prototype. I ship — NSE equities, MCX commodities, Binance crypto, live."*
 
@@ -31,9 +31,11 @@ class Ridhaant:
     jee_rank     = "97.55 Percentile — Top 2.4% Nationally (2021)"
     flagship     = "AlgoStack v10.2 — 30,595 lines, 16 live processes, 3 markets, 0 crashes"
     stack        = ["Python", "ZeroMQ", "CuPy/CUDA", "Numba", "Plotly Dash", "Docker", "NLP"]
+    security     = ["TOTP 2FA", "Flask-Login", "enterprise auth", "process isolation", "atomic I/O"]
     style        = "Production-grade or nothing. No hello-world. No tutorial re-skin."
-    looking_for  = "₹20+ LPA | FinTech · Quant · Systems · ML/GenAI | On-site or Remote"
-    availability = "Immediate"
+    roles        = ["SWE", "Quant Dev", "FinTech", "Cybersecurity", "ML/GenAI", "Backend", "Automation"]
+    location     = "Mumbai, India — On-site · Remote · Hybrid"
+    looking_for  = "₹20+ LPA | Immediate Availability"
 ```
 
 Not a notebook researcher. Not a clone-and-deploy developer.  
@@ -56,24 +58,24 @@ A fully self-hosted, real-money-ready algorithmic research and alerting platform
 │                                                                              │
 │  INGESTION LAYER           IPC LAYER              STRATEGY LAYER             │
 │  ─────────────────         ──────────             ───────────────            │
-│  NSE (yfinance)    ──►    ZeroMQ PUB/SUB  ──►   sweep_core.py                │
-│  MCX (TradingView) ──►    tcp://127.0.0.1        gpu_sweep.py                │
-│  Binance (WS)      ──►    :28081                 best_x_trader.py            │
+│  NSE (yfinance)    ──►    ZeroMQ PUB/SUB  ──►   sweep_core.py              │
+│  MCX (TradingView) ──►    tcp://127.0.0.1        gpu_sweep.py               │
+│  Binance (WS)      ──►    :28081                 best_x_trader.py           │
 │                                ▼                                             │
-│  NLP LAYER                SIGNAL LAYER           EXECUTION LAYER             │
+│  NLP LAYER                SIGNAL LAYER           EXECUTION LAYER            │
 │  ──────────                ────────────           ───────────────            │
-│  sentiment_analyzer.py    Telegram alerts ──►   Plotly Dash UI               │
-│  VADER + 130 keywords     ZMQ PUSH/PULL          unified_dash_v3.py          │
-│  11 NSE sector tags                              ngrok public tunnel         │
+│  sentiment_analyzer.py    Telegram alerts ──►   Plotly Dash UI             │
+│  VADER + 130 keywords     ZMQ PUSH/PULL          unified_dash_v3.py         │
+│  11 NSE sector tags                              ngrok public tunnel        │
 │                                                                              │
 │  INFRASTRUCTURE                                                              │
 │  ──────────────                                                              │
-│  autohealer.py    (self-healing process watchdog, 1,025 lines)               │
-│  enterprise_auth.py (TOTP 2FA + Flask-Login, 1,459 lines)                    │
-│  market_calendar.py (NSE/MCX session guard with holiday logic)               │
-│  docker-compose.yml + .env  (zero-touch VPS deployment)                      │
+│  autohealer.py    (self-healing process watchdog, 1,025 lines)              │
+│  enterprise_auth.py (TOTP 2FA + Flask-Login, 1,459 lines)                  │
+│  market_calendar.py (NSE/MCX session guard with holiday logic)              │
+│  docker-compose.yml + .env  (zero-touch VPS deployment)                    │
 │                                                                              │
-│  10-core CPU pinned layout · 38 NSE symbols · 16 concurrent processes        │
+│  10-core CPU pinned layout · 38 NSE symbols · 16 concurrent processes       │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -125,13 +127,13 @@ Binance WebSocket · CoinGecko REST ──►
                   └─────────────────┬────────────────────────────┘
                                     │
           ┌─────────────────────────▼──────────────────────────┐
-          │             Auto-detected backend                  │
-          │                                                    │
-          │  CuPy / CUDA    Numba JIT    NumPy baseline        │
-          │  GPU VRAM       LLVM+prange  C-compiled SIMD       │
-          │  < 1ms / tick   ~40ms        ~250ms                │
-          │  GTX 1650       4-core CPU   any hardware          │
-          └────────────────────────────────────────────────────┘
+          │             Auto-detected backend                   │
+          │                                                     │
+          │  CuPy / CUDA    Numba JIT    NumPy baseline         │
+          │  GPU VRAM       LLVM+prange  C-compiled SIMD        │
+          │  < 1ms / tick   ~40ms        ~250ms                 │
+          │  GTX 1650       4-core CPU   any hardware           │
+          └─────────────────────────────────────────────────────┘
 ```
 
 **What it solves:** Backtesting 32,000 strategy configurations in the time it takes a `for`-loop to test one.
@@ -267,11 +269,17 @@ ZMQ PUSH                ZMQ PUB/SUB                consumes prices
 </details>
 
 <details>
-<summary><b>🔐 Security & Auth Engineering</b></summary>
+<summary><b>🔐 Cybersecurity & Secure Systems Engineering</b></summary>
 
-- **TOTP 2FA** — `pyotp` TOTP generation + Google Authenticator QR provisioning; timing-safe verification
-- **Flask-Login session management** — cookie-based auth with `remember_me`; role gating on Dash routes
-- **Enterprise auth layer** — 1,459 lines of production authentication code written for a personal side project
+- **TOTP 2FA implementation** — `pyotp` TOTP generation (RFC 6238 compliant), Google Authenticator QR provisioning, timing-safe OTP verification using constant-time comparison to prevent timing oracle attacks
+- **Flask-Login session management** — cookie-based auth with `remember_me`; role gating on Dash routes; session expiry and re-auth enforcement
+- **Enterprise auth layer** — 1,459 lines of production authentication code; account lockout after N failed attempts; secure secret storage via `.env` with no credentials in source code
+- **Atomic I/O hardening** — `os.replace()` POSIX atomic writes prevent TOCTOU (time-of-check/time-of-use) race conditions on shared JSON state files
+- **Process isolation architecture** — 16 processes with no shared memory; ZMQ message passing eliminates inter-process data leakage vectors
+- **IPC boundary security** — ZMQ sockets bound to `127.0.0.1` only (loopback); no external network exposure on internal bus ports
+- **Secrets management** — `.env.example` pattern; `.gitignore` enforcement on secrets; environment-variable injection at runtime only
+- **Dependency supply chain hygiene** — pinned `requirements.txt` with minimum version bounds; no unverified third-party auth libraries
+- **Cloud tunnel security** — ngrok tunnel with URL-rotation on restart; Cloudflare proxy option for stable authenticated exposure
 
 </details>
 
@@ -319,6 +327,9 @@ ZMQ PUSH                ZMQ PUB/SUB                consumes prices
 **Auth & Security**
 ![Flask](https://img.shields.io/badge/Flask--Login-000000?style=flat-square&logo=flask&logoColor=white)
 ![TOTP](https://img.shields.io/badge/TOTP_2FA-25D366?style=flat-square)
+![pyotp](https://img.shields.io/badge/pyotp_RFC6238-2C2D72?style=flat-square)
+![Secrets](https://img.shields.io/badge/Secrets_Mgmt-DC143C?style=flat-square)
+![Process Isolation](https://img.shields.io/badge/Process_Isolation-444?style=flat-square)
 
 **GenAI & LLM**
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
@@ -345,12 +356,15 @@ ZMQ PUSH                ZMQ PUB/SUB                consumes prices
 
 | Role | What I Bring |
 |------|-------------|
-| **Software Engineer** | 30K+ lines production Python · multi-process IPC · atomic I/O · Docker deploy |
-| **Quant Analyst / Dev** | GPU parameter sweeps · vectorised backtests · live NSE/MCX/crypto strategy engine |
-| **Data Scientist** | NLP pipelines · GPU acceleration · signal engineering · multi-source data ingestion |
-| **FinTech Developer** | Live market feeds · Binance WebSocket · NSE equity · ZMQ bus · Telegram signals |
-| **ML / GenAI Engineer** | GPU workloads · NLP adaptation · LLM tooling · Numba/CuPy low-level ML infra |
-| **Automation Engineer** | Self-healing watchdog · process supervisor · zero-touch VPS deploy · health monitoring |
+| **Software Engineer** | 30K+ lines production Python · multi-process IPC · atomic I/O · clean architecture · Docker deploy |
+| **Backend Engineer** | ZMQ message bus · multi-threaded services · REST + WebSocket APIs · process orchestration · health probes |
+| **Quant Analyst / Developer** | GPU parameter sweeps · vectorised backtests · live NSE/MCX/crypto strategy engine · P&L modelling |
+| **FinTech Developer** | Live market feeds · Binance WebSocket · NSE/MCX integration · ZMQ bus · Telegram alert pipelines |
+| **Cybersecurity Engineer** | TOTP 2FA (RFC 6238) · timing-safe auth · process isolation · atomic I/O (TOCTOU hardening) · secrets management · IPC boundary security |
+| **Data Scientist** | NLP pipelines · domain adaptation · GPU acceleration · signal engineering · multi-source data ingestion |
+| **ML / GenAI Engineer** | CuPy/CUDA kernels · Numba JIT · NLP fine-tuning patterns · LLM tooling · low-level ML infra |
+| **Automation Engineer** | Self-healing process watchdog · zero-touch VPS deploy · health monitoring · crash-recovery supervisor |
+| **DevOps / Platform Engineer** | Docker + docker-compose · ngrok tunnel automation · Cloudflare/Render deploy · `.env` config pipelines |
 
 ---
 
@@ -364,14 +378,18 @@ ZMQ PUSH                ZMQ PUB/SUB                consumes prices
 
 <div align="center">
 
-### Open to ₹20+ LPA Roles — Immediate Availability
+### 📍 Mumbai, India — Open to ₹20+ LPA Roles — Immediate Availability
 
-*On-site (PAN India) · Remote · Hybrid*
+*On-site (Mumbai · PAN India) · Remote · Hybrid*
 
-*Systems Engineering · Quant Development · FinTech · ML/GenAI*
+**Software Engineering · Backend · Quant Development · FinTech · Cybersecurity · ML/GenAI · Automation · DevOps**
 
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ridhaant-thackur-09947a1b0)
 [![Email Me](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:redantthakur@gmail.com)
+
+---
+
+*If you're hiring for a role that demands someone who builds real production systems — not demos — let's talk.*
 
 [![Profile Views](https://visitcount.itsvg.in/api?id=Ridhaant&icon=6&color=6)](https://visitcount.itsvg.in)
 
