@@ -369,6 +369,6 @@ ZMQ PUSH                ZMQ PUB/SUB                consumes prices
 
 *If you're hiring for a role that demands someone who builds real production systems — not demos — let's talk.*
 
-[![Profile Views](https://visitcount.itsvg.in/api?id=Ridhaant&icon=6&color=6)](https://visitcount.itsvg.in)
+
 
 </div>
