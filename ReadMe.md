@@ -29,7 +29,7 @@ class Ridhaant:
     """
 
     role        = "Systems Engineer & Quantitative Developer"
-    location    = "India 🇮🇳"
+    location    = "Mumbai , India 🇮🇳"
     timezone    = "Asia/Kolkata (IST, UTC+5:30)"
 
     architecture = [
