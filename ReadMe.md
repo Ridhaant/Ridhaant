@@ -132,15 +132,15 @@ Real-time Indian financial news sentiment pipeline. Polls 4 RSS feeds, deduplica
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  sentitrade         nexus-price-bus        vectorsweep       │
+│  sentitrade         nexus-price-bus        vectorsweep      │
 │  (NLP signals)  ──► (price bus)       ──► (strategy sweep)  │
 │  ZMQ PUSH           ZMQ PUB/SUB            finds best X     │
-│                     ▲                      per symbol        │
-│                     │                                        │
-│               live prices                                     │
-│               NSE + Binance                                   │
-│                                                              │
-│  Three layers. One complete algo-trading data stack.         │
+│                     ▲                      per symbol       │
+│                     │                                       │
+│               live prices                                   │
+│               NSE + Binance                                 │
+│                                                             │
+│  Three layers. One complete algo-trading data stack.        │
 └─────────────────────────────────────────────────────────────┘
 ```
 
