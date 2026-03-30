@@ -1,8 +1,8 @@
 <div align="center">
 
 ```
-██████╗ ██╗██████╗ ██╗  ██╗ █████╗  █████╗ ███╗  ██╗████████╗
-██╔══██╗██║██╔══██╗██║  ██║██╔══██╗██╔══██╗████╗ ██║╚══██╔══╝
+ ██████╗ ██╗██████╗ ██╗  ██╗ █████╗  █████╗ ███╗  ██╗████████╗
+ ██╔══██╗██║██╔══██╗██║  ██║██╔══██╗██╔══██╗████╗ ██║╚══██╔══╝
 ██████╔╝██║██║  ██║███████║███████║███████║██╔██╗██║   ██║
 ██╔══██╗██║██║  ██║██╔══██║██╔══██║██╔══██║██║╚████║   ██║
 ██║  ██║██║██████╔╝██║  ██║██║  ██║██║  ██║██║ ╚███║   ██║
@@ -134,20 +134,6 @@ Real-time Indian financial news sentiment pipeline. Polls 4 RSS feeds, deduplica
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic_Claude-CC785C?style=flat-square)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Ridhaant's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ridhaant&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false)
-
-![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Ridhaant&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ridhaant&theme=tokyonight&hide_border=true&layout=compact)
-
-</div>
 
 ---
 
