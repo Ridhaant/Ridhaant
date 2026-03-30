@@ -1,65 +1,185 @@
-# 💫 About Me:
-Computer Science engineer (LNMIIT) with top-2.4% national analytical aptitude (JEE Mains, 97.55 percentile) and a verified record of building large-scale, production-grade software from scratch — not tutorials, not clones. Sole author of a 29,430-line, 59-file Python platform running 16 concurrent processes across a pinned 10-core CPU layout, handling three live financial markets simultaneously. Deeply fluent in multi-process architecture, IPC messaging, real-time data systems, self-healing infrastructure, and full-stack deployment. Writes code that runs in the real world, not just on localhost
+<div align="center">
 
-⚡ Systems Engineer | Quant Developer | FinTech Infrastructure | Builder Production multi-process trading & data intelligence platform | 16 processes | GPU acceleration | Real-time markets | Self-healing infrastructure |
+```
+██████╗ ██╗██████╗ ██╗  ██╗ █████╗  █████╗ ███╗  ██╗████████╗
+██╔══██╗██║██╔══██╗██║  ██║██╔══██╗██╔══██╗████╗ ██║╚══██╔══╝
+██████╔╝██║██║  ██║███████║███████║███████║██╔██╗██║   ██║
+██╔══██╗██║██║  ██║██╔══██║██╔══██║██╔══██║██║╚████║   ██║
+██║  ██║██║██████╔╝██║  ██║██║  ██║██║  ██║██║ ╚███║   ██║
+╚═╝  ╚═╝╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝
+```
 
-## 🌐 Socials:
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:redantthakur@gmail.com) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/riddhant.thakur) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ridhaant-thackur-09947a1b0)  
+### Ridhaant Ajoy Thackur
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Lightroom Classic](https://img.shields.io/badge/Adobe%20Lightroom%20Classic-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom%20Classic&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+**Systems Engineer · Quant Developer · FinTech Infrastructure · GenAI**
 
-# AlgoStack
-AlgoStack — Production Multi-Process Trading Platform
+*Building things that run in the real world — not just on localhost.*
 
-29k+ lines | 16 concurrent processes | GPU accelerated | self-healing infrastructure
-### Algorithmic Signal Engine & Live Trading Dashboard for Indian Markets , Crypto soon International Markets
-
-**NSE Equity · MCX Commodity · Crypto (Binance)**
-
-[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Plotly Dash](https://img.shields.io/badge/Plotly_Dash-2.17+-119DFF?style=for-the-badge&logo=plotly&logoColor=white)](https://dash.plotly.com)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
-[![ZeroMQ](https://img.shields.io/badge/ZeroMQ-IPC_Bus-DF0000?style=for-the-badge&logo=zeromq&logoColor=white)](https://zeromq.org)
-[![CUDA](https://img.shields.io/badge/NVIDIA_CUDA-Optional_GPU-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
-[![License](https://img.shields.io/badge/License-Proprietary-FF4B4B?style=for-the-badge)](./LICENSE)
-
-<br/>
-
-> **"From raw price feed to actionable signal in milliseconds — fully self-hosted, zero cloud subscriptions."**
-
-<br/>
-
-[📸 Screenshots](#-dashboard-overview) · [⚡ Quickstart](#-installation) · [🏗 Architecture](#-architecture) · [🔧 Configuration](#-configuration) · [🐳 Docker](#-docker)
+[![Email](https://img.shields.io/badge/Email-redantthakur%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:redantthakur@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ridhaant--thackur-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ridhaant-thackur-09947a1b0)
+[![GitHub](https://img.shields.io/badge/GitHub-Ridhaant-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ridhaant)
 
 </div>
 
 ---
 
-## ✦ What is AlgoStack?
+## ⚡ Who Am I?
 
-**AlgoStack v10.7** is a production-grade, self-hosted algorithmic research and alerting platform purpose-built for **Indian retail and professional traders**. It ingests live price data across three asset classes, computes level-based entry/exit signals using a proprietary **X-Multiplier engine**, delivers instant **Telegram push alerts**, and surfaces everything through a rich **Plotly-Dash web dashboard** — all running on your own machine or a ₹500/month VPS.
-
-No SaaS fees. No data vendor lock-in. You own every line of it.
-
+```python
+class Ridhaant:
+    university   = "LNMIIT Jaipur — BTech CSE (Final Semester)"
+    aptitude     = "JEE Mains 97.55 Percentile — Top 2.4% Nationally"
+    flagship     = "AlgoStack: 30,595 lines · 16 concurrent processes · 3 live markets"
+    approach     = "I write code that runs in production — not tutorials, not clones"
+    looking_for  = "₹20+ LPA | FinTech · Quant · Systems · ML · GenAI | Remote-friendly"
 ```
-┌────────────────────────────────────────────────────────────────────────┐
-│  Live Prices → Signal Engine → ZMQ Bus → Scanners + Dashboard + Alerts │
-└────────────────────────────────────────────────────────────────────────┘
-```
 
-> ⚠️ **Disclaimer** — AlgoStack is a *research and alerting* tool. It does **not** place orders automatically. All trading decisions remain entirely with the user. Past signal performance does not guarantee future results.
+Not a notebook researcher. Not a tutorial follower. I sole-authored a **30,595-line, 16-process live trading platform** handling NSE equity, MCX commodities, and Binance crypto simultaneously — running on a pinned 10-core CPU layout with GPU-accelerated strategy evaluation, enterprise TOTP-2FA authentication, self-healing process supervision, and zero-intervention cloud deployment.
 
 ---
 
-![](https://github-readme-stats.vercel.app/api?username=Ridhaant&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Ridhaant&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Ridhaant&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## 🏗 What I've Built
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🚀 [AlgoStack](https://github.com/Ridhaant/algostack) — Production Trading Platform
+**30,595 lines · 16 processes · 3 markets**
+
+The flagship. A fully self-hosted algorithmic research and alerting platform for Indian markets. ZeroMQ IPC bus, GPU-accelerated parameter sweep (2.35M evaluations/tick < 1ms), VADER NLP sentiment pipeline, enterprise TOTP 2FA, and zero-intervention cloud deployment — all from a single `.env` file.
+
+`Python` `ZeroMQ` `CuPy/CUDA` `Plotly Dash` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+### 📡 [nexus-price-bus](https://github.com/Ridhaant/nexus-price-bus) — Market Data Bus
+**NSE + Binance → ZMQ → 16 subscribers**
+
+Multi-source financial market data bus. Batches yfinance NSE equity, streams Binance WebSocket crypto, and publishes everything onto a named-topic ZMQ PUB/SUB bus with atomic JSON fallback. Sub-1ms latency, zero data corruption risk.
+
+`Python` `ZeroMQ` `Binance WebSocket` `yfinance`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ [vectorsweep](https://github.com/Ridhaant/vectorsweep) — GPU Parameter Sweep
+**12.48M evaluations · <1ms on GTX 1650**
+
+GPU-accelerated vectorised strategy parameter sweep engine. Evaluates 32,000 X-deviation variants against a full intraday price series in a single pass. Auto-detects CuPy CUDA / Numba JIT / NumPy — identical code, optimal performance on any hardware.
+
+`Python` `CuPy/CUDA` `Numba JIT` `NumPy`
+
+</td>
+<td width="50%" valign="top">
+
+### 📰 [sentitrade](https://github.com/Ridhaant/sentitrade) — NLP Sentiment Pipeline
+**130+ NSE keywords · 11 sectors · <1ms**
+
+Real-time Indian financial news sentiment pipeline. Polls 4 RSS feeds, deduplicates by SHA-256, runs domain-adapted VADER NLP with Indian market keyword boosters, classifies into 11 NSE sectors, and publishes ZMQ PUSH signals.
+
+`Python` `VADER NLP` `ZeroMQ` `feedparser`
+
+</td>
+</tr>
+</table>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Ridhaant&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🔢 Numbers That Matter
+
+<div align="center">
+
+| Metric | Value |
+|--------|-------|
+| Lines of production Python code | **30,595** |
+| Concurrent processes in AlgoStack | **16** |
+| GPU evaluations per price tick | **2,352,000** |
+| Latency (CuPy backend, GTX 1650) | **< 1ms** |
+| NSE symbols tracked live | **38** |
+| Enterprise auth codebase | **1,459 lines** |
+| Self-healing watchdog | **1,025 lines** |
+| National aptitude rank | **Top 2.4%** |
+
+</div>
+
+---
+
+## 🛠 Tech Stack
+
+**Systems & IPC**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![ZeroMQ](https://img.shields.io/badge/ZeroMQ-DF0000?style=flat-square&logo=zeromq&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+
+**ML & GPU**
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+**FinTech & Data**
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat-square&logo=firebase&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+
+**GenAI & LLM**
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic_Claude-CC785C?style=flat-square)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![Ridhaant's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ridhaant&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false)
+
+![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Ridhaant&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ridhaant&theme=tokyonight&hide_border=true&layout=compact)
+
+</div>
+
+---
+
+## 🏆 Architecture Philosophy
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  sentitrade         nexus-price-bus        vectorsweep       │
+│  (NLP signals)  ──► (price bus)       ──► (strategy sweep)  │
+│  ZMQ PUSH           ZMQ PUB/SUB            finds best X     │
+│                     ▲                      per symbol        │
+│                     │                                        │
+│               live prices                                     │
+│               NSE + Binance                                   │
+│                                                              │
+│  Three layers. One complete algo-trading data stack.         │
+└─────────────────────────────────────────────────────────────┘
+```
+
+> *"Zero shared database. Zero cloud subscriptions. Zero compromise on production quality."*
+
+---
+
+<div align="center">
+
+**Available from mid-2025 · Open to ₹20+ LPA roles nationally & internationally**
+
+*Systems Engineer · Quant Developer · FinTech · ML · GenAI*
+
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ridhaant-thackur-09947a1b0)
+[![Email](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:redantthakur@gmail.com)
+
+[![](https://visitcount.itsvg.in/api?id=Ridhaant&icon=6&color=6)](https://visitcount.itsvg.in)
+
+</div>
