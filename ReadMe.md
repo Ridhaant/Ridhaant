@@ -348,7 +348,9 @@ ZMQ PUSH                ZMQ PUB/SUB                consumes prices
 
 **B.Tech Computer Science** — LNMIIT Jaipur *(2022–2026)*
 
-> **JEE Mains 2022 — 97.55 Percentile — Top 2.4% of 1.1 million candidates nationally**
+> **JEE Mains 2022 — 97.55 Percentile — Top 2.4% of 1.1 million candidates nationally ,**
+
+
 > **Qualified for JEE Advance 2022**
 ---
 
