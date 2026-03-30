@@ -49,8 +49,8 @@ class Ridhaant:
     not just on localhost
 
 
-    ⚡ Systems Engineer | Quant Developer | FinTech Infrastructure | Builder Production multi-process trading & data intelligence platform |
-     18 processes | GPU acceleration | Real-time markets | Self-healing infrastructure |
+    ⚡ Systems Engineer | Quant Developer | FinTech Infrastructure | Builder Production multi-process trading &
+    data intelligence platform |18 processes | GPU acceleration | Real-time markets | Self-healing infrastructure |
     ]
 
     currently_building = "AlgoStack v10 — India's most complete self-hosted quant platform"
