@@ -90,7 +90,7 @@ Real-time Indian financial news sentiment pipeline. Polls 4 RSS feeds, deduplica
 | Concurrent processes in AlgoStack | **16** |
 | GPU evaluations per price tick | **2,352,000** |
 | Latency (CuPy backend, GTX 1650) | **< 1ms** |
-| NSE symbols tracked live | **38** |
+| NSE,MCX,Crypto symbols tracked live | **38** |
 | Enterprise auth codebase | **1,459 lines** |
 | Self-healing watchdog | **1,025 lines** |
 | National aptitude rank | **Top 2.4%** |
