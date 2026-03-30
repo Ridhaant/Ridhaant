@@ -19,7 +19,7 @@
 ```python
 class Ridhaant:
     university   = "LNMIIT Jaipur — BTech CSE (2022-2026)"
-    jee_rank     = "97.55 Percentile — Top 2.4% Nationally (2021)"
+    jee_rank     = "97.55 Percentile — Top 2.4% Nationally (2022)"
     flagship     = "AlgoStack v10 — 30,595 lines, 16 live processes, 3 markets, 0 crashes"
     stack        = ["Python", "ZeroMQ", "CuPy/CUDA", "Numba", "Plotly Dash", "Docker", "NLP"]
     security     = ["TOTP 2FA", "Flask-Login", "enterprise auth", "process isolation", "atomic I/O"]
