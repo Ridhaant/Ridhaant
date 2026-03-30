@@ -56,24 +56,24 @@ A fully self-hosted, real-money-ready algorithmic research and alerting platform
 │                                                                              │
 │  INGESTION LAYER           IPC LAYER              STRATEGY LAYER             │
 │  ─────────────────         ──────────             ───────────────            │
-│  NSE (yfinance)    ──►    ZeroMQ PUB/SUB  ──►   sweep_core.py              │
-│  MCX (TradingView) ──►    tcp://127.0.0.1        gpu_sweep.py               │
-│  Binance (WS)      ──►    :28081                 best_x_trader.py           │
+│  NSE (yfinance)    ──►    ZeroMQ PUB/SUB  ──►   sweep_core.py                │
+│  MCX (TradingView) ──►    tcp://127.0.0.1        gpu_sweep.py                │
+│  Binance (WS)      ──►    :28081                 best_x_trader.py            │
 │                                ▼                                             │
-│  NLP LAYER                SIGNAL LAYER           EXECUTION LAYER            │
+│  NLP LAYER                SIGNAL LAYER           EXECUTION LAYER             │
 │  ──────────                ────────────           ───────────────            │
-│  sentiment_analyzer.py    Telegram alerts ──►   Plotly Dash UI             │
-│  VADER + 130 keywords     ZMQ PUSH/PULL          unified_dash_v3.py         │
-│  11 NSE sector tags                              ngrok public tunnel        │
+│  sentiment_analyzer.py    Telegram alerts ──►   Plotly Dash UI               │
+│  VADER + 130 keywords     ZMQ PUSH/PULL          unified_dash_v3.py          │
+│  11 NSE sector tags                              ngrok public tunnel         │
 │                                                                              │
 │  INFRASTRUCTURE                                                              │
 │  ──────────────                                                              │
-│  autohealer.py    (self-healing process watchdog, 1,025 lines)              │
-│  enterprise_auth.py (TOTP 2FA + Flask-Login, 1,459 lines)                  │
-│  market_calendar.py (NSE/MCX session guard with holiday logic)              │
-│  docker-compose.yml + .env  (zero-touch VPS deployment)                    │
+│  autohealer.py    (self-healing process watchdog, 1,025 lines)               │
+│  enterprise_auth.py (TOTP 2FA + Flask-Login, 1,459 lines)                    │
+│  market_calendar.py (NSE/MCX session guard with holiday logic)               │
+│  docker-compose.yml + .env  (zero-touch VPS deployment)                      │
 │                                                                              │
-│  10-core CPU pinned layout · 38 NSE symbols · 16 concurrent processes       │
+│  10-core CPU pinned layout · 38 NSE symbols · 16 concurrent processes        │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -125,13 +125,13 @@ Binance WebSocket · CoinGecko REST ──►
                   └─────────────────┬────────────────────────────┘
                                     │
           ┌─────────────────────────▼──────────────────────────┐
-          │             Auto-detected backend                   │
-          │                                                     │
-          │  CuPy / CUDA    Numba JIT    NumPy baseline         │
-          │  GPU VRAM       LLVM+prange  C-compiled SIMD        │
-          │  < 1ms / tick   ~40ms        ~250ms                 │
-          │  GTX 1650       4-core CPU   any hardware           │
-          └─────────────────────────────────────────────────────┘
+          │             Auto-detected backend                  │
+          │                                                    │
+          │  CuPy / CUDA    Numba JIT    NumPy baseline        │
+          │  GPU VRAM       LLVM+prange  C-compiled SIMD       │
+          │  < 1ms / tick   ~40ms        ~250ms                │
+          │  GTX 1650       4-core CPU   any hardware          │
+          └────────────────────────────────────────────────────┘
 ```
 
 **What it solves:** Backtesting 32,000 strategy configurations in the time it takes a `for`-loop to test one.
