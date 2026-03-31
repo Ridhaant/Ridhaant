@@ -128,7 +128,7 @@ class Ridhaant:
 > Tracks **38 NSE symbols + 5 crypto pairs + 6 commodity feeds** simultaneously across a unified real-time architecture.
 
 ```
-┌─────────────────────────── AlgoStack v10.2 ──────────────────────────────┐
+┌───────────────────────────  AlgoStack v10  ──────────────────────────────┐
 │                                                                          │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────────────┐    │
 │  │  Scanner 1   │  │  Scanner 2   │  │        Scanner 3             │    │
