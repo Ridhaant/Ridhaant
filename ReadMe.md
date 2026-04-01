@@ -1,52 +1,35 @@
+<!-- Place this file in GitHub special repo: your-username/your-username (public) -->
+<!-- Path: profile/README.md — GitHub shows this on your profile -->
+
 <div align="center">
 
-<img src="../../assets/readme/profile-hero.svg" alt="Ridhaant Ajoy Thackur" width="100%"/>
+<img src="https://raw.githubusercontent.com/<your-org>/<your-algostack-repo>/main/assets/readme/profile-hero.svg" alt="Ridhaant Ajoy Thackur" width="100%"/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-AlgoStack%20ecosystem-58a6ff?style=for-the-badge)](https://github.com)
-[![Profile](https://img.shields.io/badge/GitHub-Profile%20README-a371f7?style=for-the-badge)](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)
+**Software Engineer · Quant · FinTech · ML · GenAI · Automation · Security-aware**
 
-### **Personal brand, CV bridge & visual identity**
-
-*Use this folder for the **`Ridhaant-main`** GitHub repo — profile site, CV links, and shared assets.*
+[![](https://img.shields.io/badge/Flagship-AlgoStack-58a6ff?style=for-the-badge)](https://github.com/<you>/AlgoStack)
+[![](https://img.shields.io/badge/Security-SentinelVault-f85149?style=for-the-badge)](https://github.com/<you>/SentinelVault)
+[![](https://img.shields.io/badge/IPC-Nexus%20Price%20Bus-388bfd?style=for-the-badge)](https://github.com/<you>/Nexus-Price-Bus)
 
 </div>
 
 ---
 
-## Purpose
+### Hi, I'm Ridhaant
 
-**Ridhaant-main** is **not** the trading engine — it is your **public face**:
+I build **production-shaped** systems: **Python** trading stacks, **ZMQ** IPC, **Dash** UIs, **Docker** deploys, optional **CuPy** acceleration, and **secret-safe** open source.
 
-- GitHub **profile README** (`profile/README.md` in the special `username/username` repo) can **reuse** copy from [`ABOUT_ME.md`](../../ABOUT_ME.md).
-- **Static site** (optional): Next.js / Astro / plain HTML — deploy to GitHub Pages or Cloudflare.
-- **Shared visuals** — copy `assets/readme/*.svg` for consistent branding.
+- **Hybrid portfolio:** [6 repos · one monorepo](https://github.com/<you>/AlgoStack/blob/main/repositories/README.md)
+- **Bio:** [ABOUT_ME](https://github.com/<you>/AlgoStack/blob/main/ABOUT_ME.md)
 
----
-
-## What to upload
-
-| Artifact | Source in monorepo |
-|----------|-------------------|
-| Hero / banner SVGs | [`assets/readme/`](../../assets/readme/) |
-| Long-form bio | [`ABOUT_ME.md`](../../ABOUT_ME.md) |
-| Project links | [`repositories/README.md`](../README.md) |
-
-**Docs:** [docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md) · [docs/LIBRARIES_AND_SKILLS.md](./docs/LIBRARIES_AND_SKILLS.md) · [PUBLISH.md](./PUBLISH.md)
-
----
-
-## Quick links to hybrid stack
-
-| Repo | Role |
-|------|------|
-| [AlgoStack](../AlgoStack/) | Core platform |
-| [VectorSweep](../VectorSweep/) | Sweeps & GPU |
-| [SentinelVault](../SentinelVault/) | Security |
+```text
+Python · Dash · ZMQ · NumPy · CuPy · Docker · FastAPI-ready · GenAI (env-only keys)
+```
 
 ---
 
 <div align="center">
 
-**[Hybrid index](../README.md)** · **[ABOUT_ME](../../ABOUT_ME.md)**
+**Pinned:** AlgoStack · VectorSweep · Nexus-Price-Bus · SentiTrade · SentinelVault
 
 </div>
