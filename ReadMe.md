@@ -14,7 +14,7 @@
 
 ---
 
-- 🏗️ **Systems builder.** Sole-authored 30,595 lines of live Python across 16 concurrent processes.
+- 🏗️ **Systems builder.** Sole-authored 30,595 lines of live Python across 20 concurrent processes.
 - ⚡ **GPU engineer.** 2,352,000 vectorised evaluations/tick in <1ms on GTX 1650 (CuPy CUDA 12).
 - 🎯 **Top 2.4% nationally** (JEE Mains 97.55 percentile) — LNMIIT Jaipur, BTech CSE, Final Semester.
 
@@ -86,53 +86,53 @@
 class Ridhaant:
     university   = "LNMIIT Jaipur — BTech CSE (Final Semester)"
     jee_rank     = "97.55 Percentile — Top 2.4% Nationally (2021)"
-    flagship     = "AlgoStack v10.2 — 30,595 lines, 16 live processes, 3 markets, 0 crashes"
+    flagship     = "AlgoStack v10 — 30,595 lines, 16 live processes, 3 markets, 0 crashes"
     stack        = ["Python", "ZeroMQ", "CuPy/CUDA", "Numba", "Plotly Dash", "Docker", "NLP"]
     security     = ["TOTP 2FA", "Flask-Login", "enterprise auth", "process isolation", "atomic I/O"]
     style        = "Production-grade or nothing. No hello-world. No tutorial re-skin."
     roles        = ["SWE", "Quant Dev", "FinTech", "Cybersecurity", "ML/GenAI", "Backend", "Automation"]
     location     = "Mumbai, India — On-site · Remote · Hybrid"
-    looking_for  = "₹20+ LPA | Immediate Availability"
+    availability  = "Immediate Available"
 ```
 
 Not a notebook researcher. Not a clone-and-deploy developer.  
-I **sole-authored a 30,595-line, 16-process live trading platform** — GPU-accelerated strategy sweeps, enterprise TOTP-2FA, self-healing process supervisor, zero-intervention Docker + ngrok cloud deploy — running NSE equity, MCX commodity, and Binance crypto simultaneously on a pinned 10-core CPU layout.
+I **sole-authored a 30,595-line, 20-process live trading platform** — GPU-accelerated strategy sweeps, enterprise TOTP-2FA, self-healing process supervisor, zero-intervention Docker + ngrok cloud deploy — running NSE equity, MCX commodity, and Binance crypto simultaneously on a pinned 10-core CPU layout.
 
 ---
 
 ## 🏗 What I've Actually Built
 
-### 🚀 AlgoStack v10.2 — Production Algorithmic Trading Platform
+### 🚀 AlgoStack v10 — Production Algorithmic Trading Platform
 
-> **The flagship. 30,595 lines. 16 concurrent processes. 3 live markets.**
+> **The flagship. 30,595 lines. 20 concurrent processes. 3 live markets.**
 
 A fully self-hosted, real-money-ready algorithmic research and alerting platform for Indian markets. Every layer — from live price ingestion to GPU-accelerated parameter sweep to enterprise auth to cloud deployment — written and owned by one person.
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│                        AlgoStack v10.2 Architecture                          │
+│                        AlgoStack v10 Architecture                            │
 ├──────────────────────────────────────────────────────────────────────────────┤
 │                                                                              │
 │  INGESTION LAYER           IPC LAYER              STRATEGY LAYER             │
 │  ─────────────────         ──────────             ───────────────            │
-│  NSE (yfinance)    ──►    ZeroMQ PUB/SUB  ──►   sweep_core.py              │
-│  MCX (TradingView) ──►    tcp://127.0.0.1        gpu_sweep.py               │
-│  Binance (WS)      ──►    :28081                 best_x_trader.py           │
+│  NSE (yfinance)    ──►    ZeroMQ PUB/SUB  ──►   sweep_core.py                │
+│  MCX (TradingView) ──►    tcp://127.0.0.1        gpu_sweep.py                │
+│  Binance (WS)      ──►    :28081                 best_x_trader.py            │
 │                                ▼                                             │
-│  NLP LAYER                SIGNAL LAYER           EXECUTION LAYER            │
+│  NLP LAYER                SIGNAL LAYER           EXECUTION LAYER             │
 │  ──────────                ────────────           ───────────────            │
-│  sentiment_analyzer.py    Telegram alerts ──►   Plotly Dash UI             │
-│  VADER + 130 keywords     ZMQ PUSH/PULL          unified_dash_v3.py         │
-│  11 NSE sector tags                              ngrok public tunnel        │
+│  sentiment_analyzer.py    Telegram alerts ──►   Plotly Dash UI               │
+│  VADER + 130 keywords     ZMQ PUSH/PULL          unified_dash_v3.py          │
+│  11 NSE sector tags                              ngrok public tunnel         │
 │                                                                              │
 │  INFRASTRUCTURE                                                              │
 │  ──────────────                                                              │
-│  autohealer.py    (self-healing process watchdog, 1,025 lines)              │
-│  enterprise_auth.py (TOTP 2FA + Flask-Login, 1,459 lines)                  │
-│  market_calendar.py (NSE/MCX session guard with holiday logic)              │
-│  docker-compose.yml + .env  (zero-touch VPS deployment)                    │
+│  autohealer.py    (self-healing process watchdog, 1,025 lines)               │
+│  enterprise_auth.py (TOTP 2FA + Flask-Login, 1,459 lines)                    │
+│  market_calendar.py (NSE/MCX session guard with holiday logic)               │
+│  docker-compose.yml + .env  (zero-touch VPS deployment)                      │
 │                                                                              │
-│  10-core CPU pinned layout · 38 NSE symbols · 16 concurrent processes       │
+│  10-core CPU pinned layout · 38 NSE symbols · 16 concurrent processes        │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -395,19 +395,6 @@ ZMQ PUSH                ZMQ PUB/SUB                consumes prices
 
 ---
 
-## 📊 GitHub Activity
-
-<div align="center">
-
-![Ridhaant's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ridhaant&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false)
-
-![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Ridhaant&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ridhaant&theme=tokyonight&hide_border=true&layout=compact)
-
-</div>
-
----
 
 ## 💼 Roles I'm Built For
 
