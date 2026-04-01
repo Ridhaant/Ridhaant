@@ -1,45 +1,80 @@
-# Ridhaant Ajoy Thackur
+<div align="center">
 
-**Software engineer · Quantitative & fintech · ML · Automation · GenAI · Security-aware builder**
+## **Hybrid monorepo — six GitHub-ready products**
 
-I design and ship **production-grade systems** where performance, observability, and clean boundaries matter: trading stacks, data pipelines, model-driven workflows, and automation that survives real-world failure modes.
+<img src="../assets/readme/integration-mesh.svg" alt="Hybrid monorepo" width="88%"/>
 
----
+*One codebase · six recruiter stories · clear boundaries for splitting or starring separately*
 
-## What I build
+[![Repos](https://img.shields.io/badge/Structure-6%20publish%20folders-58a6ff?style=for-the-badge)](./)
+[![Hybrid](https://img.shields.io/badge/Pattern-Shared%20core%20%2B%20domains-a371f7?style=for-the-badge)](./)
 
-- **Quant & fintech platforms**: multi-asset engines (equity / commodities / crypto), risk-aware paper execution, unified dashboards, and calibration tooling (X-multiplier sweeps, GPU-backed exploration where it pays off).
-- **Data & ML**: feature pipelines, evaluation discipline, and pragmatic model deployment — not notebook-only demos.
-- **Automation & reliability**: supervised process fleets, IPC between services, health checks, and defensive defaults so teams can operate without heroics.
-- **GenAI integration**: assistant-style UX and optional LLM tooling **behind explicit API keys** — never embedded in source for public repos.
-- **Cybersecurity mindset**: least privilege, secret hygiene, environment-based configuration, and separation of public code from credentials (see [SentinelVault](integrations/SentinelVault/README.md) in this monorepo’s documentation map).
+</div>
 
 ---
 
-## Featured repositories (portfolio)
+## How to read this layout
 
-| Project | One-line pitch |
-|---------|----------------|
-| **AlgoStack** | Core multi-asset stack: engines, scanners, unified Dash, autohealer supervision — **this repository**. |
-| **Nexus Price Bus** | Decoupled price/event IPC — pairs with `ipc_bus.py` / ZMQ endpoints. |
-| **VectorSweep** | Large-scale X-multiplier and vectorized sweep research (CPU/GPU). |
-| **SentiTrade** | Sentiment and narrative signals feeding research and UI layers. |
-| **SentinelVault** | Security playbook: secrets, access patterns, and safe publication. |
-| **Profile / personal site** | *(e.g. Ridhaant-main)* — landing page and links; keep in sync with GitHub. |
+This directory is the **portfolio spine**: each subfolder matches a **separate GitHub repository** you can publish (or keep as documentation-only). The **live implementation** lives in the **monorepo root** and is **shared** — that is the **hybrid** model:
 
-Replace the table links with your live GitHub URLs when you publish.
-
----
-
-## Operating principles (what recruiters see in the code)
-
-1. **No secrets in git** — tokens, chat IDs, SMTP, and tunnel keys live in `.env` only.  
-2. **Named configuration** — multipliers, ports, and limits are centralized (`config.py`, `.env.template`).  
-3. **Observable systems** — logs, dashboards, and health paths reflect operating state.  
-4. **Honest scope** — paper/research modes are labeled clearly; production brokerage integration requires your own compliance review.
+| Repo folder | Domain | Lives in root as |
+|-------------|--------|-------------------|
+| **[AlgoStack](./AlgoStack/)** | Full trading stack | Engines, Dash, autohealer, config, Docker, etc. |
+| **[SentinelVault](./SentinelVault/)** | Security & secret hygiene | `secrets_audit.py`, auth patterns, CI ideas |
+| **[Nexus-Price-Bus](./Nexus-Price-Bus/)** | Price IPC | `ipc_bus.py`, `price_service.py` |
+| **[VectorSweep](./VectorSweep/)** | X sweeps & GPU research | `scanner*.py`, `sweep_core.py`, `gpu_sweep.py`, … |
+| **[SentiTrade](./SentiTrade/)** | Sentiment & news | `sentiment_analyzer.py`, `news_dashboard.py` |
+| **[Ridhaant-main](./Ridhaant-main/)** | Profile & brand | `ABOUT_ME.md`, `assets/readme/*` |
 
 ---
 
-## Contact
+## Architecture: hybrid integration
 
-Use the email and links on your GitHub profile README or personal site. For recruiting: I’m interested in roles spanning **software engineering, quantitative development, fintech, ML engineering, automation, and secure platform work**.
+```mermaid
+flowchart TB
+    subgraph MONO[" Monorepo root (single clone) "]
+        CORE["AlgoStack core"]
+    end
+    subgraph R1[" AlgoStack repo "]
+        A1["Full platform"]
+    end
+    subgraph R2[" SentinelVault "]
+        A2["Security narrative + audit files"]
+    end
+    subgraph R3[" Nexus-Price-Bus "]
+        A3["IPC modules"]
+    end
+    subgraph R4[" VectorSweep "]
+        A4["Scanners + sweep_core"]
+    end
+    subgraph R5[" SentiTrade "]
+        A5["Sentiment modules"]
+    end
+    subgraph R6[" Ridhaant-main "]
+        A6["Profile + visuals"]
+    end
+    CORE --> R1 & R2 & R3 & R4 & R5 & R6
+    style MONO fill:#0d1117,stroke:#58a6ff,stroke-width:2px,color:#e6edf3
+```
+
+**You do not duplicate business logic** unless you intentionally split into separate remotes later. Until then, **`repositories/*`** holds **publish instructions**, **architecture**, and **recruiter-facing** copy aligned with each GitHub repo name.
+
+---
+
+## Upload order (suggested)
+
+1. **AlgoStack** — primary repo (largest); pin on profile.  
+2. **VectorSweep** & **Nexus-Price-Bus** — show **performance** + **systems** depth.  
+3. **SentiTrade** — **data + NLP + optional GenAI**.  
+4. **SentinelVault** — **security maturity**.  
+5. **Ridhaant-main** — GitHub profile README + static site.
+
+Each folder’s **`PUBLISH.md`** lists **exact paths** to copy when creating a standalone remote.
+
+---
+
+<div align="center">
+
+**[← Monorepo home](../README.md)** · **[About me](../ABOUT_ME.md)**
+
+</div>
