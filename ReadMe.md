@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Typing Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=800&color=00D4FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Ridhaant+%F0%9F%91%8B;Systems+Builder+%7C+Not+Tutorial+Follower;30%2C595+Lines+Live+in+Production;GPU+Inference+%3C1ms+%7C+16+Processes+%7C+3+Markets" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=800&color=00D4FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Ridhaant+%F0%9F%91%8B;Systems+Builder+%7C+Not+Tutorial+Follower;30%2C595+Lines+Live+in+Production;GPU+Inference+%3C1ms+%7C+20+Processes+%7C+3+Markets" />
 
 <br/>
 
@@ -14,7 +14,7 @@
 
 ---
 
-- 🏗️ **Systems builder.** Sole-authored 30,595 lines of live Python across 16 concurrent processes.
+- 🏗️ **Systems builder.** Sole-authored 30,595 lines of live Python across 20 concurrent processes.
 - ⚡ **GPU engineer.** 2,352,000 vectorised evaluations/tick in <1ms on GTX 1650 (CuPy CUDA 12).
 - 🔐 **Security engineer.** 1,459-line enterprise auth from scratch — TOTP 2FA, RBAC, multi-tenant, append-only audit.
 - 🤖 **LLM integrator.** Claude + GPT-4o + Gemini in production — SHA-256 cached, env-only keys, graceful fallback.
@@ -29,7 +29,7 @@
 
 </div>
 
-A **sole-authored, 16-process live trading system** spanning 3 asset classes — with self-healing process supervision, ZeroMQ IPC, GPU-accelerated research, and enterprise auth.
+A **sole-authored, 20-process live trading system** spanning 3 asset classes — with self-healing process supervision, ZeroMQ IPC, GPU-accelerated research, and enterprise auth.
 
 | What I Built | The Numbers |
 |:---|:---|
@@ -103,38 +103,6 @@ A **sole-authored, 16-process live trading system** spanning 3 asset classes —
 
 ---
 
-## 📊 Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ridhaant&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ridhaant&layout=compact&langs_count=8&theme=chartreuse-dark&hide_border=true"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ridhaant&theme=chartreuse-dark&hide_border=true" alt="streak"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ridhaant&theme=react-dark&hide_border=true" width="95%"/>
-
-</div>
-
----
-
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Ridhaant&theme=darkhub&no-frame=true&margin-w=4" />
-
-</div>
-
----
 
 ## 🔨 Currently Building
 
