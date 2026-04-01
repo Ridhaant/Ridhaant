@@ -109,7 +109,8 @@ A **sole-authored, 16-process live trading system** spanning 3 asset classes —
 ```
 🔨  AlgoStack v11 — LLM-based signal commentary layer
 🔨  vectorsweep — PyPI publish with ONNX Runtime backend
-🔨  Job Automator — Playwright form-fill for LinkedIn Easy Apply
+🔨  Transactions — Crypto wallet integration
+🔨  Broker —  Broker api integration to execute trades
 ```
 
 ---
