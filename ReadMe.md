@@ -119,7 +119,7 @@ A **sole-authored, 16-process live trading system** spanning 3 asset classes —
 
 Roles in: **Backend / Systems Engineering** · **ML Engineering** · **GenAI / LLM Systems** · **Quant Dev** · **FinTech Infrastructure** · **DevOps / SRE**
 
-**Available:** Mid-2025 · Remote / Hybrid / Relocation OK
+**Available:** Mid-2025 · Remote / Hybrid / Location Mumbai
 
 <div align="center">
 
