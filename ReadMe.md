@@ -414,15 +414,15 @@ ZMQ PUSH                ZMQ PUB/SUB                consumes prices
 
 ## 🎓 Education & Aptitude
 
-**B.Tech Computer Science** — LNMIIT Jaipur *(Final Semester, 2021–2025)*
+**B.Tech Computer Science** — LNMIIT Jaipur *(Final Semester, 2022–2026)*
 
-> **JEE Mains 2021 — 97.55 Percentile — Top 2.4% of 1.1 million candidates nationally**
+> **JEE Mains 2022 — 97.55 Percentile — Top 2.4% of 1.1 million candidates nationally**
 
 ---
 
 <div align="center">
 
-### 📍 Mumbai, India — Open to ₹20+ LPA Roles — Immediate Availability
+### 📍 Mumbai, India — Open to Roles — Immediate Availability
 
 *On-site (Mumbai · PAN India) · Remote · Hybrid*
 
@@ -435,7 +435,6 @@ ZMQ PUSH                ZMQ PUB/SUB                consumes prices
 
 *If you're hiring for a role that demands someone who builds real production systems — not demos — let's talk.*
 
-[![Profile Views](https://visitcount.itsvg.in/api?id=Ridhaant&icon=6&color=6)](https://visitcount.itsvg.in)
 
 </div>
 
