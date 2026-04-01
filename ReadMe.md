@@ -1,35 +1,44 @@
-<!-- Place this file in GitHub special repo: your-username/your-username (public) -->
-<!-- Path: profile/README.md — GitHub shows this on your profile -->
-
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/<your-org>/<your-algostack-repo>/main/assets/readme/profile-hero.svg" alt="Ridhaant Ajoy Thackur" width="100%"/>
+# Ridhaant Ajoy Thackur
 
-**Software Engineer · Quant · FinTech · ML · GenAI · Automation · Security-aware**
+[![Portfolio](https://img.shields.io/badge/Portfolio-Software%20%26%20Quant-58a6ff?style=for-the-badge)](https://github.com/YOUR_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-Replace%20YOUR__USERNAME-8b949e?style=for-the-badge)](https://github.com)
 
-[![](https://img.shields.io/badge/Flagship-AlgoStack-58a6ff?style=for-the-badge)](https://github.com/<you>/AlgoStack)
-[![](https://img.shields.io/badge/Security-SentinelVault-f85149?style=for-the-badge)](https://github.com/<you>/SentinelVault)
-[![](https://img.shields.io/badge/IPC-Nexus%20Price%20Bus-388bfd?style=for-the-badge)](https://github.com/<you>/Nexus-Price-Bus)
+### Software Engineer · Quant · FinTech · ML · Automation · Security-aware
 
 </div>
 
 ---
 
-### Hi, I'm Ridhaant
+## About
 
-I build **production-shaped** systems: **Python** trading stacks, **ZMQ** IPC, **Dash** UIs, **Docker** deploys, optional **CuPy** acceleration, and **secret-safe** open source.
+I build **production-grade** systems: multi-asset trading stacks, **Python** services, **Dash** UIs, **ZMQ** IPC, **Docker** deploys, **NumPy/CuPy** numerics, and **secret-safe** open source.
 
-- **Hybrid portfolio:** [6 repos · one monorepo](https://github.com/<you>/AlgoStack/blob/main/repositories/README.md)
-- **Bio:** [ABOUT_ME](https://github.com/<you>/AlgoStack/blob/main/ABOUT_ME.md)
+---
+
+## Flagship project
+
+**AlgoStack** — NSE / MCX / Crypto research platform with supervised processes, unified dashboard, and sweep engines.
+
+Other repos: **SentinelVault** (security), **Nexus-Price-Bus** (IPC), **VectorSweep** (sweeps), **SentiTrade** (sentiment).
+
+**Replace `YOUR_USERNAME` in the badge link above with your GitHub username** and add real links to each repo when you publish.
+
+---
+
+## Tech I emphasize
 
 ```text
-Python · Dash · ZMQ · NumPy · CuPy · Docker · FastAPI-ready · GenAI (env-only keys)
+Python · Dash · ZMQ · NumPy · CuPy · Docker · FastAPI-ready · GenAI via env keys only
 ```
 
 ---
 
-<div align="center">
+## GitHub profile README (optional)
 
-**Pinned:** AlgoStack · VectorSweep · Nexus-Price-Bus · SentiTrade · SentinelVault
+Create a repo named **`YOUR_USERNAME/YOUR_USERNAME`** (public), add a `README.md` at the repo root with a short intro and links to your projects.
 
-</div>
+---
+
+© 2026 Ridhaant Ajoy Thackur
