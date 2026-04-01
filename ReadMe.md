@@ -29,7 +29,7 @@
 [![SentiTrade](https://github-readme-stats.vercel.app/api/pin/?username=Ridhaant&repo=SentiTrade&theme=chartreuse-dark&hide_border=true)](https://github.com/Ridhaant/SentiTrade)
 [![VectorSweep](https://github-readme-stats.vercel.app/api/pin/?username=Ridhaant&repo=VectorSweep&theme=chartreuse-dark&hide_border=true)](https://github.com/Ridhaant/VectorSweep)
 [![SentinelVault](https://github-readme-stats.vercel.app/api/pin/?username=Ridhaant&repo=SentinelVault&theme=chartreuse-dark&hide_border=true)](https://github.com/Ridhaant/SentinelVault)
-[![Job-Automator](https://github-readme-stats.vercel.app/api/pin/?username=Ridhaant&repo=Job-Automator&theme=chartreuse-dark&hide_border=true)](https://github.com/Ridhaant/Job-Automator)
+
 
 </div>
 
