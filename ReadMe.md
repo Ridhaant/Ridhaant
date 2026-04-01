@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Typing Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=800&color=00D4FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Ridhaant+%F0%9F%91%8B;Systems+Builder+%7C+Not+Tutorial+Follower;30%2C595+Lines+Live+in+Production;GPU+Inference+%3C1ms+%7C+20+Processes+%7C+3+Markets" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=800&color=00D4FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Ridhaant+%F0%9F%91%8B;Systems+Builder+%7C+Not+Tutorial+Follower;30%2C595+Lines+Live+in+Production;GPU+Inference+%3C1ms+%7C+16+Processes+%7C+3+Markets" />
 
 <br/>
 
@@ -14,7 +14,7 @@
 
 ---
 
-- 🏗️ **Systems builder.** Sole-authored 30,595 lines of live Python across 20 concurrent processes.
+- 🏗️ **Systems builder.** Sole-authored 30,595 lines of live Python across 16 concurrent processes.
 - ⚡ **GPU engineer.** 2,352,000 vectorised evaluations/tick in <1ms on GTX 1650 (CuPy CUDA 12).
 - 🔐 **Security engineer.** 1,459-line enterprise auth from scratch — TOTP 2FA, RBAC, multi-tenant, append-only audit.
 - 🤖 **LLM integrator.** Claude + GPT-4o + Gemini in production — SHA-256 cached, env-only keys, graceful fallback.
@@ -29,7 +29,7 @@
 
 </div>
 
-A **sole-authored, 20-process live trading system** spanning 3 asset classes — with self-healing process supervision, ZeroMQ IPC, GPU-accelerated research, and enterprise auth.
+A **sole-authored, 16-process live trading system** spanning 3 asset classes — with self-healing process supervision, ZeroMQ IPC, GPU-accelerated research, and enterprise auth.
 
 | What I Built | The Numbers |
 |:---|:---|
@@ -46,6 +46,28 @@ A **sole-authored, 20-process live trading system** spanning 3 asset classes —
 
 ---
 
+## 🤖 Job Automator — Autonomous Application System
+
+<div align="center">
+
+![Platforms](https://img.shields.io/badge/Platforms-13-00D4FF?style=for-the-badge) ![Resumes](https://img.shields.io/badge/Resumes-8-00FF41?style=for-the-badge) ![AI](https://img.shields.io/badge/AI-Claude+GPT--4o-191919?style=for-the-badge&logo=anthropic&logoColor=white)
+
+</div>
+
+An end-to-end **Python job application automation system** — itself a production demonstration of LLM API integration, async I/O, and SQLite schema design.
+
+| What I Built | The Numbers |
+|:---|:---|
+| **13 platform connectors** (LinkedIn, Naukri, Indeed, Glassdoor, RemoteOK, Remotive, etc.) | 5 live, 8 scaffolded (Playwright) |
+| **AI cover letter generator** — Anthropic Claude with SHA-256 hash caching | Same job+role combo **never burns tokens twice** |
+| **8-resume routing engine** via RapidFuzz keyword matching | SWE, DS, Quant, FinTech, ML, Automation, GenAI, Security |
+| **Live Plotly Dash dashboard** — applications by platform, health monitor, action log | SQLite: jobs, applications, platform_sessions |
+| **Resume optimizer** — Claude/GPT ATS gap analysis with GitHub repo enrichment | Generates targeted improvement suggestions |
+| **Telegram notifier** — real-time application alerts + daily digests | Per-platform failure-streak auto-disable |
+
+**➜ [View Job Automator](https://github.com/Ridhaant/Job-Automator)**
+
+---
 
 ## 📦 Extracted Libraries (from AlgoStack)
 
@@ -103,6 +125,38 @@ A **sole-authored, 20-process live trading system** spanning 3 asset classes —
 
 ---
 
+## 📊 Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ridhaant&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ridhaant&layout=compact&langs_count=8&theme=chartreuse-dark&hide_border=true"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ridhaant&theme=chartreuse-dark&hide_border=true" alt="streak"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ridhaant&theme=react-dark&hide_border=true" width="95%"/>
+
+</div>
+
+---
+
+## 🏆 Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Ridhaant&theme=darkhub&no-frame=true&margin-w=4" />
+
+</div>
+
+---
 
 ## 🔨 Currently Building
 
