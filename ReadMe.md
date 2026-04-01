@@ -44,30 +44,7 @@ A **sole-authored, 16-process live trading system** spanning 3 asset classes —
 
 **➜ [View AlgoStack](https://github.com/Ridhaant/AlgoStack)**
 
----
 
-## 🤖 Job Automator — Autonomous Application System
-
-<div align="center">
-
-![Platforms](https://img.shields.io/badge/Platforms-13-00D4FF?style=for-the-badge) ![Resumes](https://img.shields.io/badge/Resumes-8-00FF41?style=for-the-badge) ![AI](https://img.shields.io/badge/AI-Claude+GPT--4o-191919?style=for-the-badge&logo=anthropic&logoColor=white)
-
-</div>
-
-An end-to-end **Python job application automation system** — itself a production demonstration of LLM API integration, async I/O, and SQLite schema design.
-
-| What I Built | The Numbers |
-|:---|:---|
-| **13 platform connectors** (LinkedIn, Naukri, Indeed, Glassdoor, RemoteOK, Remotive, etc.) | 5 live, 8 scaffolded (Playwright) |
-| **AI cover letter generator** — Anthropic Claude with SHA-256 hash caching | Same job+role combo **never burns tokens twice** |
-| **8-resume routing engine** via RapidFuzz keyword matching | SWE, DS, Quant, FinTech, ML, Automation, GenAI, Security |
-| **Live Plotly Dash dashboard** — applications by platform, health monitor, action log | SQLite: jobs, applications, platform_sessions |
-| **Resume optimizer** — Claude/GPT ATS gap analysis with GitHub repo enrichment | Generates targeted improvement suggestions |
-| **Telegram notifier** — real-time application alerts + daily digests | Per-platform failure-streak auto-disable |
-
-**➜ [View Job Automator](https://github.com/Ridhaant/Job-Automator)**
-
----
 
 ## 📦 Extracted Libraries (from AlgoStack)
 
@@ -125,38 +102,7 @@ An end-to-end **Python job application automation system** — itself a producti
 
 ---
 
-## 📊 Stats
 
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ridhaant&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ridhaant&layout=compact&langs_count=8&theme=chartreuse-dark&hide_border=true"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ridhaant&theme=chartreuse-dark&hide_border=true" alt="streak"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ridhaant&theme=react-dark&hide_border=true" width="95%"/>
-
-</div>
-
----
-
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Ridhaant&theme=darkhub&no-frame=true&margin-w=4" />
-
-</div>
-
----
 
 ## 🔨 Currently Building
 
