@@ -13,85 +13,84 @@
 
 ---
 
-- **Systems builder.** Sole-authored **37,228 lines** of live Python across 39 modules.
-- - **Reliability.** A **1,535-line supervisor** keeps **24 worker processes** alive across 3 markets, unattended.
-  - - **GPU engineer.** Vectorised parameter sweeps with a 3-tier fallback: CuPy CUDA to Numba JIT to NumPy.
-    - - **Security engineer.** **1,481-line** auth system from scratch — TOTP 2FA (RFC 6238), RBAC, CSRF, append-only audit.
-     
-      - ---
+| | |
+|:---|:---|
+| **Systems builder** | Sole-authored **37,228 lines** of live Python across 39 modules |
+| **Reliability** | A **1,535-line supervisor** keeps **24 worker processes** alive across 3 markets, unattended |
+| **GPU engineer** | Vectorised parameter sweeps with a 3-tier fallback: CuPy CUDA to Numba JIT to NumPy |
+| **Security engineer** | **1,481-line** auth system from scratch — TOTP 2FA (RFC 6238), RBAC, CSRF, append-only audit |
 
-      ## AlgoStack — Live Multi-Asset Trading Platform
+---
 
-      <div align="center">
+## AlgoStack — Live Multi-Asset Trading Platform
 
-      ![Lines](https://img.shields.io/badge/Lines-37%2C228-00FF41?style=for-the-badge) ![Processes](https://img.shields.io/badge/Supervised_Processes-24-00D4FF?style=for-the-badge) ![Markets](https://img.shields.io/badge/Markets-NSE+MCX+Binance-FF6B35?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<div align="center">
 
-      </div>
+![Lines](https://img.shields.io/badge/Lines-37%2C228-00FF41?style=for-the-badge) ![Processes](https://img.shields.io/badge/Supervised_Processes-24-00D4FF?style=for-the-badge) ![Markets](https://img.shields.io/badge/Markets-NSE+MCX+Binance-FF6B35?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-      A **sole-authored multi-process trading system** spanning three asset classes — with self-healing process supervision, ZeroMQ IPC, GPU-accelerated research and enterprise auth. Not a notebook and not a backtest: a system with a process whose only job is restarting the other processes when they die.
+</div>
 
-      | What I built | Detail |
-      |:---|:---|
-      | **3 trading engines** running concurrently | NSE equity, MCX commodity, Binance crypto |
-      | **9 sweep scanners** evaluating parameter grids | Single vectorised pass, boolean-mask exits, no per-variant Python loop |
-      | **Self-healing supervisor** (`autohealer.py`, 1,535 lines) | Restarts 24 managed processes; market-calendar aware; CPU-affinity pinned |
-      | **ZeroMQ IPC bus** (`ipc_bus.py`) | 3 topics, HWM backpressure, atomic write + `os.replace` — no partial reads |
-      | **Enterprise auth** (`enterprise_auth.py`, 1,481 lines) | TOTP 2FA (RFC 6238), RBAC, CSRF, bcrypt backup codes, append-only audit |
-      | **Operations dashboard** (`unified_dash_v3.py`, 6,434 lines) | Live P&L, sweep leaderboards, engine health, classified news feed |
+A **sole-authored multi-process trading system** spanning three asset classes — with self-healing process supervision, ZeroMQ IPC, GPU-accelerated research and enterprise auth. Not a notebook and not a backtest: a system with a process whose only job is restarting the other processes when they die.
 
-      **Engineering details worth calling out:**
+| What I built | Detail |
+|:---|:---|
+| **3 trading engines** running concurrently | NSE equity, MCX commodity, Binance crypto |
+| **9 sweep scanners** evaluating parameter grids | Single vectorised pass, boolean-mask exits, no per-variant Python loop |
+| **Self-healing supervisor** (`autohealer.py`, 1,535 lines) | Restarts 24 managed processes; market-calendar aware; CPU-affinity pinned |
+| **ZeroMQ IPC bus** (`ipc_bus.py`) | 3 topics, HWM backpressure, atomic write + `os.replace` — no partial reads |
+| **Enterprise auth** (`enterprise_auth.py`, 1,481 lines) | TOTP 2FA (RFC 6238), RBAC, CSRF, bcrypt backup codes, append-only audit |
+| **Operations dashboard** (`unified_dash_v3.py`, 6,434 lines) | Live P&L, sweep leaderboards, engine health, classified news feed |
 
-      - **3-tier compute fallback** auto-detected at import — the GPU path degrades to Numba, then to NumPy, instead of failing on machines without CUDA.
-      - - **Decimal-exact parameter grids** — float64 was silently accumulating drift across long step ranges and skewing sweep results. Switching grid generation to Python `Decimal` eliminated it.
-        - - **Market-calendar-aware supervision** — workers start and stop on trading sessions, not wall-clock time.
-         
-          - **[AlgoStack repository](https://github.com/Ridhaant/AlgoStack)**
-         
-          - ---
+**Engineering details worth calling out:**
 
-          ## Extracted Open-Source Libraries
+| | |
+|:---|:---|
+| **3-tier compute fallback** | Auto-detected at import — the GPU path degrades to Numba, then to NumPy, instead of failing on machines without CUDA |
+| **Decimal-exact parameter grids** | float64 was silently accumulating drift across long step ranges and skewing sweep results. Switching grid generation to Python `Decimal` eliminated it |
+| **Market-calendar-aware supervision** | Workers start and stop on trading sessions, not wall-clock time |
 
-          Four components generalised out of AlgoStack into standalone installable libraries:
+**[AlgoStack repository](https://github.com/Ridhaant/AlgoStack)**
 
-          | Library | What it does |
-          |:---|:---|
-          | **[VectorSweep](https://github.com/Ridhaant/VectorSweep)** | GPU-accelerated vectorised parameter sweeps, 3-tier CuPy/Numba/NumPy fallback |
-          | **[Nexus-Price-Bus](https://github.com/Ridhaant/Nexus-Price-Bus)** | Multi-source market data bus over ZeroMQ with atomic-write fallback |
-          | **[SentiTrade](https://github.com/Ridhaant/SentiTrade)** | Indian-market NLP sentiment pipeline — RSS ingest, SHA-256 dedup, domain lexicon |
-          | **[SentinelVault](https://github.com/Ridhaant/SentinelVault)** | Self-hostable auth platform — TOTP 2FA, RBAC, CSRF, audit logging |
+---
 
-          ---
+## Extracted Open-Source Libraries
 
-          ## Tech Stack
+Four components generalised out of AlgoStack into standalone installable libraries:
 
-          **Languages** — Python, C++, C, SQL, JavaScript, Bash
+| Library | What it does |
+|:---|:---|
+| **[VectorSweep](https://github.com/Ridhaant/VectorSweep)** | GPU-accelerated vectorised parameter sweeps, 3-tier CuPy/Numba/NumPy fallback |
+| **[Nexus-Price-Bus](https://github.com/Ridhaant/Nexus-Price-Bus)** | Multi-source market data bus over ZeroMQ with atomic-write fallback |
+| **[SentiTrade](https://github.com/Ridhaant/SentiTrade)** | Indian-market NLP sentiment pipeline — RSS ingest, SHA-256 dedup, domain lexicon |
+| **[SentinelVault](https://github.com/Ridhaant/SentinelVault)** | Self-hostable auth platform — TOTP 2FA, RBAC, CSRF, audit logging |
 
-          **Systems & IPC** — ZeroMQ (PUB/SUB), Multiprocessing, Process supervision, CPU affinity, Backpressure tuning
+---
 
-          **Compute** — CuPy / CUDA 12, Numba JIT, NumPy, SciPy, Pandas, Decimal arithmetic
+## Tech Stack
 
-          **Backend** — FastAPI, Flask, REST, WebSockets, Plotly Dash
+| Layer | Technologies |
+|:---|:---|
+| **Languages** | Python, C++, C, SQL, JavaScript, Bash |
+| **Systems & IPC** | ZeroMQ (PUB/SUB), Multiprocessing, Process supervision, CPU affinity, Backpressure tuning |
+| **Compute** | CuPy / CUDA 12, Numba JIT, NumPy, SciPy, Pandas, Decimal arithmetic |
+| **Backend** | FastAPI, Flask, REST, WebSockets, Plotly Dash |
+| **Data** | PostgreSQL, SQLite, Supabase, JSONL append-only ledgers |
+| **Infra** | Docker, Docker Compose, Linux, Git, Render, Cloudflare Tunnel |
+| **Testing** | pytest, deterministic backend harnesses |
 
-          **Data** — PostgreSQL, SQLite, Supabase, JSONL append-only ledgers
+---
 
-          **Infra** — Docker, Docker Compose, Linux, Git, Render, Cloudflare Tunnel
+## Looking For
 
-          **Testing** — pytest, deterministic backend harnesses
+**Backend / Systems Engineering** · **Quantitative Development** · **FinTech Infrastructure** · **Platform / SRE** · **ML Engineering**
 
-          ---
+**Available:** Immediately &nbsp;·&nbsp; **Location:** Mumbai / Hybrid / Remote / International contract
 
-          ## Looking For
+B.Tech Computer Science & Engineering — LNMIIT Jaipur · JEE Mains 97.55 percentile
 
-          **Backend / Systems Engineering** · **Quantitative Development** · **FinTech Infrastructure** · **Platform / SRE** · **ML Engineering**
+<div align="center">
 
-          **Available:** Immediately &nbsp;·&nbsp; **Location:** Mumbai / Hybrid / Remote / International contract
+[![Email](https://img.shields.io/badge/Email-redantthakur%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:redantthakur@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ridhaant-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ridhaant)
 
-          B.Tech Computer Science & Engineering — LNMIIT Jaipur · JEE Mains 97.55 percentile
-
-          <div align="center">
-
-          [![Email](https://img.shields.io/badge/Email-redantthakur%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:redantthakur@gmail.com)
-          [![LinkedIn](https://img.shields.io/badge/LinkedIn-ridhaant-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ridhaant)
-
-          </div>
-          
+</div>
